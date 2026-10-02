@@ -24,6 +24,10 @@ Read **`results/SUMMARY.md`** when it finishes. Plots are in `results/figures/`.
 
 ## How we got here
 
+![Earlier and later ZTF measurements follow similar repeating brightness patterns.](figures/overview.png)
+
+Dots average measurements at the same point in the cycle. Lines use earlier nights only; error bars show measurement uncertainty. Instrument and image-quality trends have been removed. The first star's green and red light vary in roughly opposite phases.
+
 1. Selected nearby, faint, blue stars from SDSS and Gaia.
 2. Used the earlier 75% of ZTF observing nights to find candidate periods.
 3. Tested those periods on the later 25%, without choosing new periods.

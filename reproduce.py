@@ -130,12 +130,13 @@ def main():
     shutil.copytree(observations / "raw", output / "raw")
     (output / "figures").mkdir()
     (output / "logs").mkdir()
-    environment = dict(os.environ, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MPLBACKEND="Agg")
+    environment = dict(os.environ, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MPLBACKEND="Agg", MPLCONFIGDIR=str(output / ".matplotlib"))
     started = time.monotonic()
     status = subprocess.run([sys.executable, str(ROOT / "run_analysis.py"), str(output)], env=environment).returncode
     if status:
         raise RuntimeError(f"Analysis stopped. See {output / 'logs'}. No successful reproduction is claimed.")
     subprocess.run([sys.executable, str(ROOT / "verify_results.py"), str(output)], env=environment, check=True)
+    subprocess.run([sys.executable, str(ROOT / "plot_overview.py"), str(output)], env=environment, check=True)
     print(f"\nFinished in {(time.monotonic() - started) / 60:.1f} minutes. Read {output / 'SUMMARY.md'}", flush=True)
 
 

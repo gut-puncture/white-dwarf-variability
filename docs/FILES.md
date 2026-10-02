@@ -33,7 +33,7 @@
 
 Other scripts supply shared functions and constants. Their original numeric names were preserved to avoid disguising their origin. [Original script checksums](../provenance/original_scripts.json) let readers check that these analysis routines match the research copies.
 
-`inputs/` holds observing plans and the previously selected exploratory secondary-frequency list needed by the original TESS audit. It contains no final fit outputs. The main ZTF frequencies and spectral feature are selected again from the early observations on every run. Secondary-frequency tests are exploratory and do not support a second-clock claim.
+`inputs/` holds observing plans and the previously selected exploratory secondary-frequency record needed by the original TESS audit. That record contains earlier secondary fits, but only its frequency list is used. The main ZTF frequencies and spectral feature are selected again from the early observations on every run. Secondary-frequency tests are exploratory and do not support a second-clock claim.
 
 `verify_results.py` runs last. It compares new calculations with `reference/`, with exact counts/labels and small numerical tolerances for floating-point differences. A mismatch gives a nonzero exit status and is written to `verification.json`. Agreement is a software reproduction check, not independent scientific validation.
 
