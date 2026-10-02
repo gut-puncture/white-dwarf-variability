@@ -1,0 +1,50 @@
+[
+  {
+    "sdss_id": 80364427,
+    "catalogue": "80364427_atlas_variables_60arcsec",
+    "separation_arcsec": 0.06808457669557035,
+    "target_match": true,
+    "ATOID": "J170.4531+10.6594",
+    "Class": "dubious",
+    "fp-LSper": "3.380501",
+    "fp-lngfitper": "21.167702",
+    "fp-period": null,
+    "ls-Pday": "1.540327"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "65258778_atlas_variables_60arcsec",
+    "separation_arcsec": 53.1940802992102,
+    "target_match": false,
+    "ATOID": "J327.5309+47.2016",
+    "Class": "dubious",
+    "fp-LSper": "0.998593",
+    "fp-lngfitper": "996.01239",
+    "fp-period": null,
+    "ls-Pday": "8.23596"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "65258778_atlas_variables_60arcsec",
+    "separation_arcsec": 30.598188616834133,
+    "target_match": false,
+    "ATOID": "J327.5461+47.2093",
+    "Class": "dubious",
+    "fp-LSper": "0.499764",
+    "fp-lngfitper": "507.104553",
+    "fp-period": null,
+    "ls-Pday": "1.988728"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "65258778_atlas_variables_60arcsec",
+    "separation_arcsec": 53.5973055974826,
+    "target_match": false,
+    "ATOID": "J327.5402+47.2305",
+    "Class": "dubious",
+    "fp-LSper": "0.545719",
+    "fp-lngfitper": "5.86322",
+    "fp-period": null,
+    "ls-Pday": "1.091713"
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "path": "inputs/data/65258778_ztf_image_plan.csv",
+    "sha256": "d2df38fedf958b4e2ccaa8a4be4de9bc35c9b3a5f6bacf72c4295f5a9850a9e8"
+  },
+  {
+    "path": "inputs/data/80364427_additional_tesscut_acquisition.json",
+    "sha256": "4d035a9b3d2ab3c47fef7ae329750917ea1dab6259f4f3cf89d80fa515aac5e4"
+  },
+  {
+    "path": "inputs/data/80364427_spectral_control_plan.csv",
+    "sha256": "256c404922ed60d06b058ac05b0fc7ff93224859a248926937b5e5db95bbef52"
+  },
+  {
+    "path": "inputs/data/fast_rotation_extension_target_plan.csv",
+    "sha256": "b583ed0f699565ac63f95232644469984b3878986f7726e7f097f32aad4a7e56"
+  },
+  {
+    "path": "inputs/data/fast_rotation_secondary/80364427_frozen_candidates.json",
+    "sha256": "d8c6883aa44a8edfc085a2471bbbf37e150c008aba2c467f8f989b2a9cca61ad"
+  },
+  {
+    "path": "reference/data/65258778_fast_rotation_ztf_audit.json",
+    "sha256": "fb823cd4539e9fcdf02a934617a2c150786f8f1efe3c1f2d186eae9716481bf4"
+  },
+  {
+    "path": "reference/data/65258778_ztf_image_period.json",
+    "sha256": "74546700c634d51a6086bae9f647a8f75874d68b8ddb412faded049337922794"
+  },
+  {
+    "path": "reference/data/65258778_ztf_image_photometry_status.json",
+    "sha256": "0268658547438264b4e5fe0d62c704bc058bc976e401a15b1540e695246b0a42"
+  },
+  {
+    "path": "reference/data/80364427_additional_tess_audit.json",
+    "sha256": "517a62988c1fb1b675fa300010528fa602ef09484bc02549cac8bf5857ee3564"
+  },
+  {
+    "path": "reference/data/80364427_additional_tess_validation.json",
+    "sha256": "5185ebbeaf8c11177588db3165f9506a8ce3b348c5e46e99f6972421a6cd9b2f"
+  },
+  {
+    "path": "reference/data/80364427_fast_rotation_tess_validation.json",
+    "sha256": "99f8e655575f043b41910f754e26586340ae4bc70f6121cbe944d1689029d58f"
+  },
+  {
+    "path": "reference/data/80364427_fast_rotation_ztf_audit.json",
+    "sha256": "3c0617fba75e725ab7689429ea760ffe7ee525896b1f13246f1db6627ac56e0c"
+  },
+  {
+    "path": "reference/data/80364427_feature_controls.json",
+    "sha256": "fe737ea41baa3ea624df4cbdf7456fc030591dfed3535aea5b6abcf7fbc0f337"
+  },
+  {
+    "path": "reference/data/80364427_feature_sensitivity.json",
+    "sha256": "94c7d4eb4eed86b7517bf367051baa8d6998b5570d4da2b9b1a13e7ff3422925"
+  },
+  {
+    "path": "reference/data/80364427_spectral_colour_tests.json",
+    "sha256": "d573546d093b3b13a4a6bab142495562d8efc1e7a86d68d6d96c45f113e1dcc8"
+  },
+  {
+    "path": "reference/data/80364427_spectral_features_validation.json",
+    "sha256": "f96d19bc01194ec636f7b58ab5d1c990646f7ef600b3ec99acced2c7b6d98ce1"
+  },
+  {
+    "path": "reference/data/80364427_tess_correlated_null.json",
+    "sha256": "9ebd27c53047e8b8bd321fdfed70966116faa6b0e4b64f5381c560d9d07cf2c8"
+  },
+  {
+    "path": "reference/data/80364427_tess_pixel_checks.json",
+    "sha256": "44558eab09276a4320fb38f7994667b72c6e0e7aca9f7c011bc83738e38aba91"
+  },
+  {
+    "path": "reference/data/fast_rotation/65258778_frozen_discovery_candidates.json",
+    "sha256": "c0ee1898131182df2be75c63d8e358128b057319d2f974d0974bd8e081284ad7"
+  },
+  {
+    "path": "reference/data/fast_rotation/65258778_preparation.json",
+    "sha256": "6d01757e5b0fac89cdf7eff1a9c5316b864d071104d63d4f128bf1814ee570c0"
+  },
+  {
+    "path": "reference/data/fast_rotation/65258778_result.json",
+    "sha256": "b11e8f42339c9bba11a979810c256a2bf701b9b43eb4a01d43e87db9ab8ad31a"
+  },
+  {
+    "path": "reference/data/fast_rotation/80364427_frozen_discovery_candidates.json",
+    "sha256": "bf123ddd60695a620c1dc46b0751ba935ac5b496785623d826804bec7c36ce58"
+  },
+  {
+    "path": "reference/data/fast_rotation/80364427_preparation.json",
+    "sha256": "bd6ab9306bf9816d930133b75a03adef198b0021f2d8620008024e03dde385d5"
+  },
+  {
+    "path": "reference/data/fast_rotation/80364427_result.json",
+    "sha256": "b3202c6b86bce2d68dd2fd212982d39a423a3a06158db4de314a118ecb085c41"
+  }
+]

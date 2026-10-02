@@ -1,0 +1,50 @@
+{
+  "label": "general_variable_catalogue_schema",
+  "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+  "format": "csv",
+  "params": {
+    "REQUEST": "doQuery",
+    "LANG": "ADQL",
+    "FORMAT": "csv",
+    "QUERY": "SELECT table_name,description FROM TAP_SCHEMA.tables WHERE table_name LIKE '%J/ApJS/249/18%' OR table_name LIKE '%J/AJ/156/241%' OR table_name LIKE '%J/ApJS/213/9%' OR table_name LIKE '%J/MNRAS/488/4905%'"
+  },
+  "file": "raw/novelty_audit_20261003/general_variable_catalogue_schema.csv",
+  "bytes": 910,
+  "sha256": "158ccecd4eba4025c05a1a33d3fa346da36560fee7bda5ec896649aa5da497bd",
+  "columns": [
+    "table_name",
+    "description"
+  ],
+  "status": "valid_response",
+  "n_rows": 7,
+  "records": [
+    {
+      "table_name": "'J/AJ/156/241/table4'",
+      "description": "*ATLAS catalog of candidate variable stars ( Heinze A.N., Tonry J.L., Denneau L., Flewelling H., Stalder B., Rest A., Smith K.W., Smartt S.J., Weiland H.)"
+    },
+    {
+      "table_name": "'J/ApJS/213/9/table3'",
+      "description": "Periodic Variable Catalog ( Drake A.J., Graham M.J., Djorgovski S.G., et al.)"
+    },
+    {
+      "table_name": "'J/ApJS/213/9/table8'",
+      "description": "Parameters of newly discovered Supernovae ( Drake A.J., Graham M.J., Djorgovski S.G., et al.)"
+    },
+    {
+      "table_name": "'J/ApJS/213/9/table9'",
+      "description": "Parameters of newly discovered Cataclysmic Variables ( Drake A.J., Graham M.J., Djorgovski S.G., et al.)"
+    },
+    {
+      "table_name": "'J/ApJS/249/18/table2'",
+      "description": "ZTF variables catalog ( Chen X., Wang S., Deng L., de Grijs R., Yang M., Tian H.)"
+    },
+    {
+      "table_name": "'J/ApJS/249/18/table3'",
+      "description": "ZTF suspected variables catalog ( Chen X., Wang S., Deng L., de Grijs R., Yang M., Tian H.)"
+    },
+    {
+      "table_name": "'J/MNRAS/488/4905/table2'",
+      "description": "SuperWASP false positive catalogue ( Schanche N., Collier Cameron A., Almenara J.M., et al.)"
+    }
+  ]
+}

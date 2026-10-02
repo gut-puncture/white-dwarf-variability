@@ -1,0 +1,8 @@
+{
+  "status": "insufficient_usable_passband_coverage",
+  "n_input": 96,
+  "primary_g_r_discovery_points": 7,
+  "primary_g_r_validation_points": 1,
+  "reason": "98percent passband coverage plus per-visit offsets leaves no identifiable validation sinusoid. No likelihood result or detection claimed.",
+  "continuation": "A separately labelled continuum-window diagnostic is planned; it is not SDSS broad-band photometry."
+}

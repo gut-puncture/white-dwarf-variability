@@ -1,0 +1,607 @@
+{
+  "retrieved_utc": "2026-10-02T23:00:48.572464+00:00",
+  "targets": [
+    {
+      "sid": 80364427,
+      "gid": "3915674026806527616",
+      "oid": 10168140,
+      "ra": 170.45311084,
+      "dec": 10.65945823
+    },
+    {
+      "sid": 65258778,
+      "gid": "1974721783974773376",
+      "oid": 15865864,
+      "ra": 327.53783409,
+      "dec": 47.21569882
+    }
+  ],
+  "results": [
+    {
+      "label": "80364427_simbad_aliases",
+      "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT id FROM ident WHERE oidref=10168140"
+      },
+      "file": "raw/novelty_audit_20261003/80364427_simbad_aliases.csv",
+      "bytes": 119,
+      "sha256": "8f30d55c06b59016dbdcb7e871e710e262d99b3d60287e22d0a4b44553d03446",
+      "columns": [
+        "id"
+      ],
+      "status": "valid_response",
+      "n_rows": 4,
+      "records": [
+        {
+          "id": "Gaia DR3 3915674026806527616"
+        },
+        {
+          "id": "SDSS J112148.80+103934.2"
+        },
+        {
+          "id": "SDSS J112148.77+103934.1"
+        },
+        {
+          "id": "Gaia DR2 3915674026806527616"
+        }
+      ]
+    },
+    {
+      "label": "80364427_simbad_references",
+      "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT r.bibcode,r.title,r.abstract FROM has_ref h JOIN ref r ON h.oidbibref=r.oidbib WHERE h.oidref=10168140"
+      },
+      "file": "raw/novelty_audit_20261003/80364427_simbad_references.csv",
+      "bytes": 19957,
+      "sha256": "23e0f7094b6bd2df51b8cae7ece6adfeb4da2ea2b2742d508a14fd93c199971f",
+      "columns": [
+        "bibcode",
+        "title",
+        "abstract"
+      ],
+      "status": "valid_response",
+      "n_rows": 13,
+      "records": [
+        {
+          "bibcode": "2015MNRAS.446.4078K",
+          "title": "New white dwarf stars in the Sloan Digital Sky Survey Data Release 10.",
+          "abstract": "We report the discovery of 9088 new spectroscopically confirmed white dwarfs and subdwarfs in the Sloan Digital Sky Survey Data Release 10. We obtain {\\it T}eff, log {\\it g} and mass for hydrogen atmosphere white dwarf stars (DAs) and helium atmosphere white dwarf stars (DBs), and estimate the calcium/helium abundances for the white dwarf stars with metallic lines (DZs) and carbon/helium for carbon-dominated spectra DQs. We found 1 central star of a planetary nebula, 2 new oxygen spectra on helium atmosphere white dwarfs, 71 DQs, 42 hot DO/PG1159s, 171 white dwarf+main-sequence star binaries, 206 magnetic DAHs, 327 continuum-dominated DCs, 397 metal-polluted white dwarfs, 450 helium-dominated white dwarfs, 647 subdwarfs and 6887 new hydrogen-dominated white dwarf stars."
+        },
+        {
+          "bibcode": "2015MNRAS.448.2260G",
+          "title": "A photometric selection of white dwarf candidates in Sloan Digital Sky Survey Data Release 10.",
+          "abstract": "We present a method which uses cuts in colour-colour and reduced proper motion-colour space to select white dwarfs without the recourse to spectroscopy while allowing an adjustable compromise between completeness and efficiency. Rather than just producing a list of white dwarf candidates, our method calculates a {\\it probability of being a white dwarf} ({\\it P}WD) for any object with available multiband photometry and proper motion. We applied this method to all objects in the Sloan Digital Sky Survey (SDSS) Data Release 10 (DR10) photometric footprint and to a few selected sources in DR7 which did not have reliable photometry in DR9 or DR10. This application results in a sample of 61 969 DR10 and 3799 DR7 photometric sources with calculated {\\it P}WD from which it is possible to select a sample of ~ 23000 high-fidelity white dwarf candidates with {\\it T}eff >~ 7000 K and {\\it g} <= 19. This sample contains over 14 000 high confidence white dwarfs candidates which have not yet received spectroscopic follow-up. These numbers show that, to date, the spectroscopic coverage of white dwarfs in the SDSS photometric footprint is, on average, only ~ 40 percent complete. While we describe here in detail the application of our selection to the SDSS catalogue, the same method could easily be applied to other multicolour, large area surveys. We also publish a list of 8701 bright ({\\it g} <= 19) white dwarfs with SDSS spectroscopy, of which 1781 are new identifications in DR9/DR10."
+        },
+        {
+          "bibcode": "2016MNRAS.455.3413K",
+          "title": "New white dwarf and subdwarf stars in the Sloan Digital Sky Survey Data Release 12.",
+          "abstract": "We report the discovery of 6576 new spectroscopically confirmed white dwarf and subdwarf stars in the Sloan Digital Sky Survey Data Release 12. We obtain {\\it T}eff, log {\\it g} and mass for hydrogen atmosphere white dwarf stars (DAs) and helium atmosphere white dwarf stars (DBs), estimate the calcium/helium abundances for the white dwarf stars with metallic lines (DZs) and carbon/helium for carbon-dominated spectra (DQs). We found one central star of a planetary nebula, one ultracompact helium binary (AM CVn), one oxygen line-dominated white dwarf, 15 hot DO/PG1159s, 12 new cataclysmic variables, 36 magnetic white dwarf stars, 54 DQs, 115 helium-dominated white dwarfs, 148 white dwarf + main-sequence star binaries, 236 metal-polluted white dwarfs, 300 continuum spectra DCs, 230 hot subdwarfs, 2936 new hydrogen-dominated white dwarf stars, and 2675 cool hydrogen-dominated subdwarf stars. We calculate the mass distribution of all 5883 DAs with S/N >= 15 in DR12, including the ones in DR7 and DR10, with an average S/N = 26, corrected to the 3D convection scale, and also the distribution after correcting for the observed volume, using 1/{\\it V}max."
+        },
+        {
+          "bibcode": "2018MNRAS.475.2480P",
+          "title": "The sdA problem - I. Physical properties.",
+          "abstract": "The so-called sdA stars are defined by having H-rich spectra and surface gravities similar to hot subdwarf stars, but effective temperature below the zero-age horizontal branch. Their evolutionary history is an enigma: their surface gravity is too high for main-sequence stars, but too low for single evolution white dwarfs. They are most likely byproducts of binary evolution, including blue-stragglers, extremely-low mass white dwarf stars (ELMs) and their precursors (pre-ELMs). A small number of ELMs with similar properties to sdAs is known. Other possibilities include metal-poor A/F dwarfs, second generation stars, or even stars accreted from dwarf galaxies. In this work, we analyse colours, proper motions, and spacial velocities of a sample of sdAs from the Sloan Digital Sky Survey to assess their nature and evolutionary origin. We define a probability of belonging to the main sequence and a probability of being a (pre-)ELM based on these properties. We find that 7 per cent of the sdAs are more likely to be (pre-)ELMs than main-sequence stars. However, the spacial velocity distribution suggests that over 35 per cent of them cannot be explained as single metal-poor A/F stars."
+        },
+        {
+          "bibcode": "2018MNRAS.480.4505J",
+          "title": "A white dwarf catalogue from Gaia-DR2 and the Virtual Observatory.",
+          "abstract": "We present a catalogue of 73 221 white dwarf candidates extracted from the astrometric and photometric data of the recently published Gaia-DR2 catalogue. White dwarfs were selected from the Gaia Hertzsprung-Russell diagram with the aid of the most updated population synthesis simulator. Our analysis shows that Gaia has virtually identified all white dwarfs within 100 pc from the Sun. Hence, our sub-population of 8555 white dwarfs within this distance limit and the colour range considered, - 0.52< (G_ BP_-G_ RP_)< 0.80, is the largest and most complete volume-limited sample of such objects to date. From this sub-sample, we identified 8343 CO-core and 212 ONe-core white dwarf candidates and derived a white dwarf space density of 4.9\\pm 0.4\\times 10^-3^  pc^-3^. A bifurcation in the Hertzsprung-Russell diagram for these sources, which our models do not predict, is clearly visible. We used the Virtual Observatory SED Analyzer tool to derive effective temperatures and luminosities for our sources by fitting their spectral energy distributions, that we built from the ultraviolet to the near-infrared using publicly available photometry through the Virtual Observatory. From these parameters, we derived the white dwarf radii. Interpolating the radii and effective temperatures in hydrogen-rich white dwarf cooling sequences, we derived the surface gravities and masses. The Gaia 100 pc white dwarf population is clearly dominated by cool ({\\sim}8000 K) objects and reveals a significant population of massive (M \\sim 0.8  M_\\odot_) white dwarfs, of which no more than \\sim 30\\hbox--40 \\  per\\ cent can be attributed to hydrogen-deficient atmospheres, and whose origin remains uncertain."
+        },
+        {
+          "bibcode": "2019MNRAS.482.4570G",
+          "title": "A Gaia Data Release 2 catalogue of white dwarfs and a comparison with SDSS.",
+          "abstract": "We present a catalogue of white dwarf candidates selected from the second data release of Gaia (DR2). We used a sample of spectroscopically confirmed white dwarfs from the Sloan Digital Sky Survey (SDSS) to map the entire space spanned by these objects in the Gaia Hertzsprung-Russell diagram. We then defined a set of cuts in absolute magnitude, colour, and a number of Gaia quality flags to remove the majority of contaminating objects. Finally, we adopt a method analogous to the one presented in our earlier SDSS photometric catalogues to calculate a probability of being a white dwarf (P_WD_) for all Gaia sources that passed the initial selection. The final catalogue is composed of 486 641 stars with calculated P_WD_ from which it is possible to select a sample of \\simeq  260 000 high-confidence white dwarf candidates in the magnitude range 8 < G < 21. By comparing this catalogue with a sample of SDSS white dwarf candidates, we estimate an upper limit in completeness of 85 per cent for white dwarfs with G {\\leq} 20 mag and T_eff_ >7000 K, at high Galactic latitudes (|b| > 20{deg}). However, the completeness drops at low Galactic latitudes, and the magnitude limit of the catalogue varies significantly across the sky as a function of Gaia's scanning law. We also provide the list of objects within our sample with available SDSS spectroscopy. We use this spectroscopic sample to characterize the observed structure of the white dwarf distribution in the H-R diagram."
+        },
+        {
+          "bibcode": "2019MNRAS.486.2169K",
+          "title": "White dwarf and subdwarf stars in the Sloan Digital Sky Survey Data Release 14.",
+          "abstract": "White dwarfs carry information on the structure and evolution of the Galaxy, especially through their luminosity function and initial-to-final mass relation. Very cool white dwarfs provide insight into the early ages of each population. Examining the spectra of all stars with 3{sigma} proper motion in the Sloan Digital Sky Survey Data Release 14, we report the classification for 20 088 spectroscopically confirmed white dwarfs, plus 415 hot subdwarfs, and 311 cataclysmic variables. We obtain T_eff_, log  g, and mass for hydrogen atmosphere white dwarf stars (DAs), warm helium atmosphere white dwarfs (DBs), hot subdwarfs (sdBs and sdOs), and estimate photometric T_eff_ for white dwarf stars with continuum spectra (DCs). We find 15 793 sdAs and 447 dCs between the white dwarf cooling sequence and the main sequence, especially below T_eff_\\simeq 10 000 K; most are likely low-mass metal-poor main-sequence stars, but some could be the result of interacting binary evolution."
+        },
+        {
+          "bibcode": "2021MNRAS.508.3877G",
+          "title": "A catalogue of white dwarfs in Gaia EDR3.",
+          "abstract": "We present a catalogue of white dwarf candidates selected from Gaia Early Data Release 3 (EDR3). We applied several selection criteria in absolute magnitude, colour, and Gaia quality flags to remove objects with unreliable measurements while preserving most stars compatible with the white dwarf locus in the Hertzsprung-Russell diagram. We then used a sample of over 30 000 spectroscopically confirmed white dwarfs and contaminants from the Sloan Digital Sky Survey (SDSS) to map the distribution of these objects in the Gaia absolute magnitude-colour space. Finally, we adopt the same method presented in our previous work on Gaia Data Release 2 (DR2) to calculate a probability of being a white dwarf (P_WD_) for {\\simeq}1.3 million sources that passed our quality selection. The P_WD_ values can be used to select a sample of \\simeq 359000 high-confidence white dwarf candidates. We calculated stellar parameters (effective temperature, surface gravity, and mass) for all these stars by fitting Gaia astrometry and photometry with synthetic pure-H, pure-He, and mixed H-He atmospheric models. We estimate an upper limit of 93 per cent for the overall completeness of our catalogue for white dwarfs with G {\\leq} 20 mag and effective temperature (T_eff_) > 7000 K, at high Galactic latitudes (|b| > 20{deg}). Alongside the main catalogue we include a reduced proper motion extension containing \\simeq 10200 white dwarf candidates with unreliable parallax measurements that could, however, be identified on the basis of their proper motion. We also performed a cross-match of our catalogues with SDSS Data Release 16 (DR16) spectroscopy and provide spectral classification based on visual inspection for all resulting matches."
+        },
+        {
+          "bibcode": "2023ApJ...944...56A",
+          "title": "Catalog of Magnetic White Dwarfs with Hydrogen Dominated Atmospheres.",
+          "abstract": "White dwarfs are excellent research laboratories as they reach temperatures, pressures, and magnetic fields that are unattainable on Earth. To better understand how these three physical parameters interact with each other and with other stellar features, we determined the magnetic field strength for a total of 804 hydrogen-rich white dwarfs (WDs) of which 287 are not in the literature. We fitted the spectra observed with the Sloan Digital Sky Survey using atmospheric models that consider the Zeeman effect due to the magnetic field at each point in the stellar disk. Comparing magnetic and nonmagnetic WDs, the literature already shows that the magnetic ones have on average higher mass than the nonmagnetic. In addition to that, magnetic fields are more common in cooler WDs than in hotter WDs. In consonance, we found that those with higher magnetic field strengths tend to have higher masses, and lower temperatures, for which models indicate the crystallization process has already started. This reinforces the hypothesis that the field is being generated and/or amplified in the cooling process of the white dwarf. Our sample constitutes the largest number of white dwarfs with determined magnetic fields to date."
+        },
+        {
+          "bibcode": "2023MNRAS.520.6111H",
+          "title": "Spectrophotometric analysis of magnetic white dwarf - I. Hydrogen-rich compositions.",
+          "abstract": "We present a homogeneous analysis of all DA stars labelled as magnetic in the Montreal White Dwarf Database. Our sample is restricted to almost all known magnetic white dwarf showing clear sign of splitting (B \u2273 1-2 MG) that have parallax measurements from the second Gaia data release, photometric data from diverse surveys and spectroscopic data from Sloan Digital Sky Survey or archival data from the Montreal group. We determine the atmospheric parameters (effective temperature, surface gravity, and magnetic field strength/geometry) of all objects using state-of-the-art model atmosphere/magnetic synthetic spectra, as well as reclassify many objects that were prematurely labelled as potentially magnetic. Finally, we discuss the atmospheric parameters/field properties distribution as well as the implication on our understanding of magnetic white dwarfs origin and evolution."
+        },
+        {
+          "bibcode": "2023MNRAS.520.6135H",
+          "title": "Spectrophotometric analysis of magnetic white dwarf - II. Helium-rich compositions.",
+          "abstract": "We present an analysis of all single white dwarf stars known to exhibit spectroscopic signatures of neutral helium line splitting due to the presence of a strong magnetic field. Using state-of-the-art models taking into account the effects of magnetic fields on the synthetic spectra, we determine effective temperatures, surface gravities, and masses for the stars in our sample. Our analysis uses data from the second and third Gaia (early) data releases, photometric data from diverse surveys such as the Sloan Digital Sky Survey and Pan-STARRS, and archived spectroscopic data. We are able to successfully reproduce the spectra of eight objects using an offset dipole geometry while several others seem to require either a more complex geometry or a different chemical composition. We also highlight a group of hot featureless white dwarfs that are most probably highly magnetic objects whose spectra are completely smeared due to the field strength distribution across the surface."
+        },
+        {
+          "bibcode": "2023A&A...677A.159T",
+          "title": "White dwarf spectral type-temperature distribution from {\\em Gaia} DR3 and the Virtual Observatory.",
+          "abstract": "{\\em Context.} The characterization of white dwarf atmospheres is crucial for accurately deriving stellar parameters such as effective temperature, mass, and age. However, the inclusion of physical processes such as convective mixing and convective dilution in current white dwarf atmospheric models offers a prediction of the spectral evolution of these objects. To constrain these models, accurate observational data and analyses are necessary.\\\\ {\\em Aims.} We aim to classify the population of white dwarfs up to 500 pc into hydrogen-rich or hydrogen-deficient atmospheres based on {\\em Gaia} spectra and to derive an accurate spectral type-temperature distribution, namely, the ratio between the number of non-DAs to the total number of white dwarfs as a function of the effective temperature for the largest observed unbiased sample of these objects.\\\\ {\\em Methods.} We took advantage of the recent {\\em Gaia} low-resolution spectra available for 76 657 white dwarfs up to 500 pc. We calculated the synthetic J-PAS narrow-band photometry and fit the spectral energy distribution of each object with up-to-date models for hydrogen-rich and helium-rich white dwarf atmospheres. We estimated the probability for a white dwarf to have a hydrogen-rich atmosphere and validated the results using the Montreal White Dwarf Database. Finally, precise effective temperature values were derived for each object using La Plata evolutionary models.\\\\ {\\em Results.} We successfully classified a total of 65 310 white dwarfs (57 155 newly classified objects) into DAs and non-DAs with an accuracy of 94%. An unbiased subsample of nearly 34 000 objects was built, from which we computed a precise spectral distribution spanning an effective temperature range from 5500 to 40 000 K, while accounting for potential selection effects.\\\\ {\\em Conclusions.} Some characteristic features of the spectral evolution, such as the deficit of helium-rich stars at {\\em T}_eff_ \u2248 35 000 - 40 000 K and in the range of 22 000 \u2272 {\\em T}_eff_ \u2272 25 000 K, as well as a gradual increase from 18 000 K to {\\em T}_eff_ \u2248 7000 K, where the non-DA stars percentage reaches its maximum of 41%, followed by a decrease for cooler temperatures, are statistically significant. These findings will provide precise constraints for the proposed models of spectral evolution.\\\\"
+        },
+        {
+          "bibcode": "2024A&A...682A...5V",
+          "title": "Classification and parameterization of a large {\\em Gaia} sample of white dwarfs using XP spectra.",
+          "abstract": "{\\em Context.} The latest {\\em Gaia} data release in July 2022, DR3, in addition to the refinement of the astrometric and photometric parameters from DR2, added a number of important data products to those available in earlier releases, including radial velocity data, information on stellar multiplicity, and XP spectra of a selected sample of stars. {\\em Gaia} has proved to be an important search tool for white dwarf stars, which are readily identifiable from their absolute {\\em G} magnitudes as low luminosity objects in the Hertzsprung-Russell (H-R) diagram. Each data release has yielded large catalogs of white dwarfs, containing several hundred thousand objects, far in excess of the numbers known from all previous surveys (\u223c40 000). While the normal {\\em Gaia} photometry ({\\em G}, {\\em G}_BP_, and {\\em G}_RP_ bands) and astrometry can be used to identify white dwarfs with high confidence, it is much more difficult to parameterize the stars and determine the white dwarf spectral type from this information alone. Observing all stars in these catalogs with follow-up spectroscopy and photometry is also a huge logistical challenge with current facilities.\\\\ {\\em Aims.} The availability of the XP spectra and synthetic photometry presents an opportunity for a more detailed spectral classification and measurement of the effective temperature and surface gravity of {\\em Gaia} white dwarfs.\\\\ {\\em Methods.} A magnitude limit of {\\em G} < 17.6 was applied to the routine production of XP spectra for {\\em Gaia} sources, which would have excluded most white dwarfs. Therefore, we created a catalog of 100 000 high-quality white dwarf identifications for which XP spectra were processed, with a magnitude limit of {\\em G} < 20.5. Synthetic photometry was computed for all these stars, from the XP spectra, in Johnson, SDSS, and J-PAS, published as the {\\em Gaia} Synthetic Photometry Catalog - White Dwarfs (GSPC-WD). We took this catalog and applied machine learning techniques to provide a classification of all the stars from the XP spectra. We have then applied an automated spectral fitting program, with {\\em \u03c7}-squared minimization, to measure their physical parameters (effective temperature and log {\\em g}) from which we could estimate the white dwarf masses and radii.\\\\ {\\em Results.} We present the results of this work, demonstrating the power of being able to classify and parameterize such a large sample of \u2248100 000 stars. We describe what we can learn about the white dwarf population from this dataset. We also explored the uncertainties in the process and the limitations of the dataset.\\\\"
+        }
+      ]
+    },
+    {
+      "label": "80364427_vizier_vsx_60arcsec",
+      "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT * FROM \"B/vsx/vsx\" WHERE 1=CONTAINS(POINT('ICRS',RAJ2000,DEJ2000),CIRCLE('ICRS',170.45311084,10.65945823,0.016666666666666666))"
+      },
+      "file": "raw/novelty_audit_20261003/80364427_vizier_vsx_60arcsec.csv",
+      "bytes": 136,
+      "sha256": "c9fad7a39b354e51daebe252196d2bc5077f614d5605150b3b49e801bfb2448f",
+      "columns": [
+        "recno",
+        "OID",
+        "Name",
+        "V",
+        "RAJ2000",
+        "DEJ2000",
+        "Type",
+        "l_max",
+        "max",
+        "u_max",
+        "n_max",
+        "f_min",
+        "l_min",
+        "min",
+        "u_min",
+        "n_min",
+        "Epoch",
+        "u_Epoch",
+        "l_Period",
+        "Period",
+        "u_Period",
+        "Sp",
+        "n_OID"
+      ],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "80364427_aavso_vsx_60arcsec",
+      "url": "https://vsx.aavso.org/index.php",
+      "format": "xml",
+      "params": {
+        "view": "query.votable",
+        "coords": "170.45311084 +10.65945823",
+        "format": "d",
+        "size": 60,
+        "unit": 3,
+        "geom": "r",
+        "order": 9,
+        "filter": "0,1,2"
+      },
+      "file": "raw/novelty_audit_20261003/80364427_aavso_vsx_60arcsec.xml",
+      "bytes": 757,
+      "sha256": "332cb6471bf4cb3805ac98f35276a1460a9e323087cd99defd62666bac5b1ed2",
+      "columns": [
+        "AUID",
+        "Name",
+        "Const",
+        "Coords(J2000)",
+        "VarType",
+        "MaxMag",
+        "MaxMagPassband",
+        "MinMag",
+        "MinMagPassband",
+        "Epoch",
+        "NovaYear",
+        "Period",
+        "RiseDuration",
+        "SpecType",
+        "Discoverer"
+      ],
+      "infos": [],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "65258778_simbad_aliases",
+      "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT id FROM ident WHERE oidref=15865864"
+      },
+      "file": "raw/novelty_audit_20261003/65258778_simbad_aliases.csv",
+      "bytes": 65,
+      "sha256": "c97b35d68731570fb5ac31407394fede6f50ac46e9c7f68811085c70a95a7ffe",
+      "columns": [
+        "id"
+      ],
+      "status": "valid_response",
+      "n_rows": 2,
+      "records": [
+        {
+          "id": "Gaia DR3 1974721783974773376"
+        },
+        {
+          "id": "Gaia DR2 1974721783974773376"
+        }
+      ]
+    },
+    {
+      "label": "65258778_simbad_references",
+      "url": "https://simbad.cds.unistra.fr/simbad/sim-tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT r.bibcode,r.title,r.abstract FROM has_ref h JOIN ref r ON h.oidbibref=r.oidbib WHERE h.oidref=15865864"
+      },
+      "file": "raw/novelty_audit_20261003/65258778_simbad_references.csv",
+      "bytes": 11527,
+      "sha256": "27a4bb772fd6d7e7d506f2952f60e7e64d5942afa754fd1b49ebbbe797623dd9",
+      "columns": [
+        "bibcode",
+        "title",
+        "abstract"
+      ],
+      "status": "valid_response",
+      "n_rows": 6,
+      "records": [
+        {
+          "bibcode": "2018MNRAS.480.4505J",
+          "title": "A white dwarf catalogue from Gaia-DR2 and the Virtual Observatory.",
+          "abstract": "We present a catalogue of 73 221 white dwarf candidates extracted from the astrometric and photometric data of the recently published Gaia-DR2 catalogue. White dwarfs were selected from the Gaia Hertzsprung-Russell diagram with the aid of the most updated population synthesis simulator. Our analysis shows that Gaia has virtually identified all white dwarfs within 100 pc from the Sun. Hence, our sub-population of 8555 white dwarfs within this distance limit and the colour range considered, - 0.52< (G_ BP_-G_ RP_)< 0.80, is the largest and most complete volume-limited sample of such objects to date. From this sub-sample, we identified 8343 CO-core and 212 ONe-core white dwarf candidates and derived a white dwarf space density of 4.9\\pm 0.4\\times 10^-3^  pc^-3^. A bifurcation in the Hertzsprung-Russell diagram for these sources, which our models do not predict, is clearly visible. We used the Virtual Observatory SED Analyzer tool to derive effective temperatures and luminosities for our sources by fitting their spectral energy distributions, that we built from the ultraviolet to the near-infrared using publicly available photometry through the Virtual Observatory. From these parameters, we derived the white dwarf radii. Interpolating the radii and effective temperatures in hydrogen-rich white dwarf cooling sequences, we derived the surface gravities and masses. The Gaia 100 pc white dwarf population is clearly dominated by cool ({\\sim}8000 K) objects and reveals a significant population of massive (M \\sim 0.8  M_\\odot_) white dwarfs, of which no more than \\sim 30\\hbox--40 \\  per\\ cent can be attributed to hydrogen-deficient atmospheres, and whose origin remains uncertain."
+        },
+        {
+          "bibcode": "2019MNRAS.482.4570G",
+          "title": "A Gaia Data Release 2 catalogue of white dwarfs and a comparison with SDSS.",
+          "abstract": "We present a catalogue of white dwarf candidates selected from the second data release of Gaia (DR2). We used a sample of spectroscopically confirmed white dwarfs from the Sloan Digital Sky Survey (SDSS) to map the entire space spanned by these objects in the Gaia Hertzsprung-Russell diagram. We then defined a set of cuts in absolute magnitude, colour, and a number of Gaia quality flags to remove the majority of contaminating objects. Finally, we adopt a method analogous to the one presented in our earlier SDSS photometric catalogues to calculate a probability of being a white dwarf (P_WD_) for all Gaia sources that passed the initial selection. The final catalogue is composed of 486 641 stars with calculated P_WD_ from which it is possible to select a sample of \\simeq  260 000 high-confidence white dwarf candidates in the magnitude range 8 < G < 21. By comparing this catalogue with a sample of SDSS white dwarf candidates, we estimate an upper limit in completeness of 85 per cent for white dwarfs with G {\\leq} 20 mag and T_eff_ >7000 K, at high Galactic latitudes (|b| > 20{deg}). However, the completeness drops at low Galactic latitudes, and the magnitude limit of the catalogue varies significantly across the sky as a function of Gaia's scanning law. We also provide the list of objects within our sample with available SDSS spectroscopy. We use this spectroscopic sample to characterize the observed structure of the white dwarf distribution in the H-R diagram."
+        },
+        {
+          "bibcode": "2019ApJ...886..100C",
+          "title": "A cooling anomaly of high-mass white dwarfs.",
+          "abstract": "Recently, the power of Gaia data has revealed an enhancement of high-mass white dwarfs (WDs) on the Hertzsprung-Russell diagram, called the Q branch. This branch is located at the high-mass end of the recently identified crystallization branch. Investigating its properties, we find that the number density and velocity distribution on the Q branch cannot be explained by the cooling delay of crystallization alone, suggesting the existence of an extra cooling delay. To quantify this delay, we statistically compare two age indicators-the dynamical age inferred from transverse velocity, and the photometric isochrone age-for more than one thousand high-mass WDs (1.08-1.23 M_{\\sun}_) selected from Gaia Data Release 2. We show that about 6% of the high-mass WDs must experience an 8 Gyr extra cooling delay on the Q branch, in addition to the crystallization and merger delays. This cooling anomaly is a challenge for WD cooling models. We point out that ^22^Ne settling in C/O-core WDs could account for this extra cooling delay."
+        },
+        {
+          "bibcode": "2021MNRAS.508.3877G",
+          "title": "A catalogue of white dwarfs in Gaia EDR3.",
+          "abstract": "We present a catalogue of white dwarf candidates selected from Gaia Early Data Release 3 (EDR3). We applied several selection criteria in absolute magnitude, colour, and Gaia quality flags to remove objects with unreliable measurements while preserving most stars compatible with the white dwarf locus in the Hertzsprung-Russell diagram. We then used a sample of over 30 000 spectroscopically confirmed white dwarfs and contaminants from the Sloan Digital Sky Survey (SDSS) to map the distribution of these objects in the Gaia absolute magnitude-colour space. Finally, we adopt the same method presented in our previous work on Gaia Data Release 2 (DR2) to calculate a probability of being a white dwarf (P_WD_) for {\\simeq}1.3 million sources that passed our quality selection. The P_WD_ values can be used to select a sample of \\simeq 359000 high-confidence white dwarf candidates. We calculated stellar parameters (effective temperature, surface gravity, and mass) for all these stars by fitting Gaia astrometry and photometry with synthetic pure-H, pure-He, and mixed H-He atmospheric models. We estimate an upper limit of 93 per cent for the overall completeness of our catalogue for white dwarfs with G {\\leq} 20 mag and effective temperature (T_eff_) > 7000 K, at high Galactic latitudes (|b| > 20{deg}). Alongside the main catalogue we include a reduced proper motion extension containing \\simeq 10200 white dwarf candidates with unreliable parallax measurements that could, however, be identified on the basis of their proper motion. We also performed a cross-match of our catalogues with SDSS Data Release 16 (DR16) spectroscopy and provide spectral classification based on visual inspection for all resulting matches."
+        },
+        {
+          "bibcode": "2023A&A...677A.159T",
+          "title": "White dwarf spectral type-temperature distribution from {\\em Gaia} DR3 and the Virtual Observatory.",
+          "abstract": "{\\em Context.} The characterization of white dwarf atmospheres is crucial for accurately deriving stellar parameters such as effective temperature, mass, and age. However, the inclusion of physical processes such as convective mixing and convective dilution in current white dwarf atmospheric models offers a prediction of the spectral evolution of these objects. To constrain these models, accurate observational data and analyses are necessary.\\\\ {\\em Aims.} We aim to classify the population of white dwarfs up to 500 pc into hydrogen-rich or hydrogen-deficient atmospheres based on {\\em Gaia} spectra and to derive an accurate spectral type-temperature distribution, namely, the ratio between the number of non-DAs to the total number of white dwarfs as a function of the effective temperature for the largest observed unbiased sample of these objects.\\\\ {\\em Methods.} We took advantage of the recent {\\em Gaia} low-resolution spectra available for 76 657 white dwarfs up to 500 pc. We calculated the synthetic J-PAS narrow-band photometry and fit the spectral energy distribution of each object with up-to-date models for hydrogen-rich and helium-rich white dwarf atmospheres. We estimated the probability for a white dwarf to have a hydrogen-rich atmosphere and validated the results using the Montreal White Dwarf Database. Finally, precise effective temperature values were derived for each object using La Plata evolutionary models.\\\\ {\\em Results.} We successfully classified a total of 65 310 white dwarfs (57 155 newly classified objects) into DAs and non-DAs with an accuracy of 94%. An unbiased subsample of nearly 34 000 objects was built, from which we computed a precise spectral distribution spanning an effective temperature range from 5500 to 40 000 K, while accounting for potential selection effects.\\\\ {\\em Conclusions.} Some characteristic features of the spectral evolution, such as the deficit of helium-rich stars at {\\em T}_eff_ \u2248 35 000 - 40 000 K and in the range of 22 000 \u2272 {\\em T}_eff_ \u2272 25 000 K, as well as a gradual increase from 18 000 K to {\\em T}_eff_ \u2248 7000 K, where the non-DA stars percentage reaches its maximum of 41%, followed by a decrease for cooler temperatures, are statistically significant. These findings will provide precise constraints for the proposed models of spectral evolution.\\\\"
+        },
+        {
+          "bibcode": "2024A&A...682A...5V",
+          "title": "Classification and parameterization of a large {\\em Gaia} sample of white dwarfs using XP spectra.",
+          "abstract": "{\\em Context.} The latest {\\em Gaia} data release in July 2022, DR3, in addition to the refinement of the astrometric and photometric parameters from DR2, added a number of important data products to those available in earlier releases, including radial velocity data, information on stellar multiplicity, and XP spectra of a selected sample of stars. {\\em Gaia} has proved to be an important search tool for white dwarf stars, which are readily identifiable from their absolute {\\em G} magnitudes as low luminosity objects in the Hertzsprung-Russell (H-R) diagram. Each data release has yielded large catalogs of white dwarfs, containing several hundred thousand objects, far in excess of the numbers known from all previous surveys (\u223c40 000). While the normal {\\em Gaia} photometry ({\\em G}, {\\em G}_BP_, and {\\em G}_RP_ bands) and astrometry can be used to identify white dwarfs with high confidence, it is much more difficult to parameterize the stars and determine the white dwarf spectral type from this information alone. Observing all stars in these catalogs with follow-up spectroscopy and photometry is also a huge logistical challenge with current facilities.\\\\ {\\em Aims.} The availability of the XP spectra and synthetic photometry presents an opportunity for a more detailed spectral classification and measurement of the effective temperature and surface gravity of {\\em Gaia} white dwarfs.\\\\ {\\em Methods.} A magnitude limit of {\\em G} < 17.6 was applied to the routine production of XP spectra for {\\em Gaia} sources, which would have excluded most white dwarfs. Therefore, we created a catalog of 100 000 high-quality white dwarf identifications for which XP spectra were processed, with a magnitude limit of {\\em G} < 20.5. Synthetic photometry was computed for all these stars, from the XP spectra, in Johnson, SDSS, and J-PAS, published as the {\\em Gaia} Synthetic Photometry Catalog - White Dwarfs (GSPC-WD). We took this catalog and applied machine learning techniques to provide a classification of all the stars from the XP spectra. We have then applied an automated spectral fitting program, with {\\em \u03c7}-squared minimization, to measure their physical parameters (effective temperature and log {\\em g}) from which we could estimate the white dwarf masses and radii.\\\\ {\\em Results.} We present the results of this work, demonstrating the power of being able to classify and parameterize such a large sample of \u2248100 000 stars. We describe what we can learn about the white dwarf population from this dataset. We also explored the uncertainties in the process and the limitations of the dataset.\\\\"
+        }
+      ]
+    },
+    {
+      "label": "65258778_vizier_vsx_60arcsec",
+      "url": "https://tapvizier.cds.unistra.fr/TAPVizieR/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT * FROM \"B/vsx/vsx\" WHERE 1=CONTAINS(POINT('ICRS',RAJ2000,DEJ2000),CIRCLE('ICRS',327.53783409,47.21569882,0.016666666666666666))"
+      },
+      "file": "raw/novelty_audit_20261003/65258778_vizier_vsx_60arcsec.csv",
+      "bytes": 136,
+      "sha256": "c9fad7a39b354e51daebe252196d2bc5077f614d5605150b3b49e801bfb2448f",
+      "columns": [
+        "recno",
+        "OID",
+        "Name",
+        "V",
+        "RAJ2000",
+        "DEJ2000",
+        "Type",
+        "l_max",
+        "max",
+        "u_max",
+        "n_max",
+        "f_min",
+        "l_min",
+        "min",
+        "u_min",
+        "n_min",
+        "Epoch",
+        "u_Epoch",
+        "l_Period",
+        "Period",
+        "u_Period",
+        "Sp",
+        "n_OID"
+      ],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "65258778_aavso_vsx_60arcsec",
+      "url": "https://vsx.aavso.org/index.php",
+      "format": "xml",
+      "params": {
+        "view": "query.votable",
+        "coords": "327.53783409 +47.21569882",
+        "format": "d",
+        "size": 60,
+        "unit": 3,
+        "geom": "r",
+        "order": 9,
+        "filter": "0,1,2"
+      },
+      "file": "raw/novelty_audit_20261003/65258778_aavso_vsx_60arcsec.xml",
+      "bytes": 757,
+      "sha256": "332cb6471bf4cb3805ac98f35276a1460a9e323087cd99defd62666bac5b1ed2",
+      "columns": [
+        "AUID",
+        "Name",
+        "Const",
+        "Coords(J2000)",
+        "VarType",
+        "MaxMag",
+        "MaxMagPassband",
+        "MinMag",
+        "MinMagPassband",
+        "Epoch",
+        "NovaYear",
+        "Period",
+        "RiseDuration",
+        "SpecType",
+        "Discoverer"
+      ],
+      "infos": [],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "rr_lyr_aavso_vsx_positive_control",
+      "url": "https://vsx.aavso.org/index.php",
+      "format": "xml",
+      "params": {
+        "view": "query.votable",
+        "ident": "RR Lyr",
+        "filter": "0,1,2"
+      },
+      "file": "raw/novelty_audit_20261003/rr_lyr_aavso_vsx_positive_control.xml",
+      "bytes": 1030,
+      "sha256": "81d77e9a07e745ddc28ef23d2970b1a12f54cd9c1ac15eb07b8c236dd5f7685e",
+      "columns": [
+        "AUID",
+        "Name",
+        "Const",
+        "Coords(J2000)",
+        "VarType",
+        "MaxMag",
+        "MaxMagPassband",
+        "MinMag",
+        "MinMagPassband",
+        "Epoch",
+        "NovaYear",
+        "Period",
+        "RiseDuration",
+        "SpecType",
+        "Discoverer"
+      ],
+      "infos": [],
+      "status": "valid_response",
+      "n_rows": 1,
+      "records": [
+        {
+          "AUID": "000-BCG-719",
+          "Name": "RR Lyr",
+          "Const": "Lyr",
+          "Coords(J2000)": "291.36629167,42.78436111",
+          "VarType": "RRAB/BL",
+          "MaxMag": "7.170",
+          "MaxMagPassband": "V",
+          "MinMag": "8.140",
+          "MinMagPassband": "V",
+          "Epoch": "59422.52200",
+          "NovaYear": null,
+          "Period": "0.566775",
+          "RiseDuration": "16",
+          "SpecType": "A5.0-F7.0",
+          "Discoverer": "Williamina Fleming (1901)"
+        }
+      ]
+    },
+    {
+      "label": "gaia_vari_classifier_result",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT * FROM gaiadr3.vari_classifier_result WHERE source_id IN (3915674026806527616,1974721783974773376)"
+      },
+      "file": "raw/novelty_audit_20261003/gaia_vari_classifier_result.csv",
+      "bytes": 71,
+      "sha256": "47a46b8eaa3b4742d6e4549cac67d6f5fe2fa3fa5806b9830a409c26cd73d841",
+      "columns": [
+        "solution_id",
+        "source_id",
+        "classifier_name",
+        "best_class_name",
+        "best_class_score"
+      ],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "gaia_vari_short_timescale",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT * FROM gaiadr3.vari_short_timescale WHERE source_id IN (3915674026806527616,1974721783974773376)"
+      },
+      "file": "raw/novelty_audit_20261003/gaia_vari_short_timescale.csv",
+      "bytes": 162,
+      "sha256": "381c94ea55b95b4ec9da1ab9690d1139b6f26a35092ccc7809cea01255022e4c",
+      "columns": [
+        "solution_id",
+        "source_id",
+        "amplitude_estimate",
+        "number_of_fov_transits",
+        "mean_of_fov_abbe_values",
+        "variogram_num_points",
+        "variogram_char_timescales",
+        "variogram_values",
+        "frequency"
+      ],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "gaia_vari_rotation_modulation",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT * FROM gaiadr3.vari_rotation_modulation WHERE source_id IN (3915674026806527616,1974721783974773376)"
+      },
+      "file": "raw/novelty_audit_20261003/gaia_vari_rotation_modulation.csv",
+      "bytes": 1567,
+      "sha256": "987037f794ee5dbce792b94a74c98b852eb6ea13b160c099f0cdc7375c48a0eb",
+      "columns": [
+        "solution_id",
+        "source_id",
+        "num_segments",
+        "segments_start_time",
+        "segments_end_time",
+        "segments_colour_mag_intercept",
+        "segments_colour_mag_intercept_error",
+        "segments_colour_mag_slope",
+        "segments_colour_mag_slope_error",
+        "segments_correlation_coefficient",
+        "segments_correlation_significance",
+        "num_outliers",
+        "outliers_time",
+        "segments_rotation_period",
+        "segments_rotation_period_error",
+        "segments_rotation_period_fap",
+        "best_rotation_period",
+        "best_rotation_period_error",
+        "segments_g_unspotted",
+        "segments_g_unspotted_error",
+        "segments_bp_unspotted",
+        "segments_bp_unspotted_error",
+        "segments_rp_unspotted",
+        "segments_rp_unspotted_error",
+        "g_unspotted",
+        "g_unspotted_error",
+        "bp_unspotted",
+        "bp_unspotted_error",
+        "rp_unspotted",
+        "rp_unspotted_error",
+        "segments_g_cos_term",
+        "segments_g_cos_term_error",
+        "segments_g_sin_term",
+        "segments_g_sin_term_error",
+        "segments_g_a0_term",
+        "segments_g_a0_term_error",
+        "segments_bp_cos_term",
+        "segments_bp_cos_term_error",
+        "segments_bp_sin_term",
+        "segments_bp_sin_term_error",
+        "segments_bp_a0_term",
+        "segments_bp_a0_term_error",
+        "segments_rp_cos_term",
+        "segments_rp_cos_term_error",
+        "segments_rp_sin_term",
+        "segments_rp_sin_term_error",
+        "segments_rp_a0_term",
+        "segments_rp_a0_term_error",
+        "segments_g_activity_index",
+        "segments_g_activity_index_error",
+        "segments_bp_activity_index",
+        "segments_bp_activity_index_error",
+        "segments_rp_activity_index",
+        "segments_rp_activity_index_error",
+        "max_activity_index_g",
+        "max_activity_index_g_error",
+        "segments_bp_rp_corr_coeff",
+        "segments_bp_rp_corr_signif",
+        "segments_bp_rp_intercept",
+        "segments_bp_rp_intercept_error",
+        "segments_bp_rp_slope",
+        "segments_bp_rp_slope_error",
+        "segments_model_reference_time",
+        "segments_g_chi_square",
+        "segments_bp_chi_square",
+        "segments_rp_chi_square"
+      ],
+      "status": "valid_response",
+      "n_rows": 0,
+      "records": []
+    },
+    {
+      "label": "gaia_variability_flags",
+      "url": "https://gea.esac.esa.int/tap-server/tap/sync",
+      "format": "csv",
+      "params": {
+        "REQUEST": "doQuery",
+        "LANG": "ADQL",
+        "FORMAT": "csv",
+        "QUERY": "SELECT source_id,phot_variable_flag,has_epoch_photometry FROM gaiadr3.gaia_source WHERE source_id IN (3915674026806527616,1974721783974773376)"
+      },
+      "file": "raw/novelty_audit_20261003/gaia_variability_flags.csv",
+      "bytes": 130,
+      "sha256": "9657768b1ca874301d2fd98fa55016ce0a216ed6d5c484ea77ed0e278e4bd873",
+      "columns": [
+        "source_id",
+        "phot_variable_flag",
+        "has_epoch_photometry"
+      ],
+      "status": "valid_response",
+      "n_rows": 2,
+      "records": [
+        {
+          "source_id": "3915674026806527616",
+          "phot_variable_flag": "NOT_AVAILABLE",
+          "has_epoch_photometry": "false"
+        },
+        {
+          "source_id": "1974721783974773376",
+          "phot_variable_flag": "NOT_AVAILABLE",
+          "has_epoch_photometry": "false"
+        }
+      ]
+    }
+  ],
+  "limitation": "A negative catalogue query is not universal proof of novelty."
+}

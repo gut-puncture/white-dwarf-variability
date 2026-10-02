@@ -1,0 +1,1700 @@
+{
+  "tests": [
+    {
+      "feature": "4100",
+      "role": "training_selected",
+      "mode": "none",
+      "training": {
+        "n": 54,
+        "n_nights": 15,
+        "nuisance_rank": 15,
+        "variance_inflation": 4.335263637624188,
+        "null_chi2": 38.99999999999999,
+        "chi2": 8.085628520507665,
+        "delta_chi2": 30.914371479492328,
+        "coefficients": [
+          -4.959244491507682,
+          -0.005588619894430491
+        ],
+        "covariance": [
+          [
+            0.807995018849233,
+            0.08545810009323597
+          ],
+          [
+            0.08545810009323596,
+            0.5748466767077809
+          ]
+        ],
+        "phase_radians": -3.140465744533728,
+        "amplitude_angstrom": 4.9592476404412,
+        "amplitude_error_angstrom": 0.898992396864085
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.2939226887594195,
+        "null_chi2": 26.000000000000007,
+        "chi2": 7.3420512043546395,
+        "delta_chi2": 18.657948795645368,
+        "coefficients": [
+          -5.822204634093599,
+          0.48595002426286116
+        ],
+        "covariance": [
+          [
+            1.8650236428206128,
+            -0.44093771732326065
+          ],
+          [
+            -0.4409377173232607,
+            1.7487616387889082
+          ]
+        ],
+        "phase_radians": 3.0583207132070855,
+        "amplitude_angstrom": 5.842449334597781,
+        "amplitude_error_angstrom": 1.3918749187555077
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.2939226887594195,
+        "null_chi2": 26.000000000000007,
+        "chi2": 7.79161576979805,
+        "delta_chi2": 18.208384230201958,
+        "coefficients": [
+          -4.959244491507682,
+          -0.005588619894430491
+        ],
+        "covariance": [
+          [
+            1.8650236428206128,
+            -0.44093771732326065
+          ],
+          [
+            -0.4409377173232607,
+            1.7487616387889082
+          ]
+        ],
+        "phase_radians": -3.140465744533728,
+        "amplitude_angstrom": 4.9592476404412,
+        "amplitude_error_angstrom": 1.3652947310396022
+      },
+      "full_exploratory": {
+        "n": 88,
+        "n_nights": 23,
+        "nuisance_rank": 23,
+        "variance_inflation": 5.518727258078282,
+        "null_chi2": 65.0,
+        "chi2": 16.44415076262844,
+        "delta_chi2": 48.55584923737156,
+        "coefficients": [
+          -5.281834476847288,
+          0.1061762737767506
+        ],
+        "covariance": [
+          [
+            0.5745503737201187,
+            -0.011314566463377113
+          ],
+          [
+            -0.01131456646337711,
+            0.45641468115801404
+          ]
+        ],
+        "phase_radians": 3.1214932021816266,
+        "amplitude_angstrom": 5.282901555199167,
+        "amplitude_error_angstrom": 0.7582594314746093
+      }
+    },
+    {
+      "feature": "4100",
+      "role": "training_selected",
+      "mode": "subtract",
+      "training": {
+        "n": 54,
+        "n_nights": 15,
+        "nuisance_rank": 15,
+        "variance_inflation": 4.441763278281863,
+        "null_chi2": 39.00000000000001,
+        "chi2": 8.686772230079544,
+        "delta_chi2": 30.313227769920463,
+        "coefficients": [
+          -4.944794154786023,
+          0.1483644009075551
+        ],
+        "covariance": [
+          [
+            0.8278441413832873,
+            0.08755745499110895
+          ],
+          [
+            0.08755745499110894,
+            0.5889683010471455
+          ]
+        ],
+        "phase_radians": 3.1115974912778666,
+        "amplitude_angstrom": 4.947019428773519,
+        "amplitude_error_angstrom": 0.9068516067878405
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.26332814882711,
+        "null_chi2": 25.999999999999996,
+        "chi2": 6.9706444385617825,
+        "delta_chi2": 19.029355561438216,
+        "coefficients": [
+          -5.848387566522033,
+          0.38111415977758223
+        ],
+        "covariance": [
+          [
+            1.857200754815107,
+            -0.43908819311304365
+          ],
+          [
+            -0.43908819311304365,
+            1.741426414647792
+          ]
+        ],
+        "phase_radians": 3.0765189815108944,
+        "amplitude_angstrom": 5.860792193128201,
+        "amplitude_error_angstrom": 1.383364074419609
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.26332814882711,
+        "null_chi2": 25.999999999999996,
+        "chi2": 7.410497564579275,
+        "delta_chi2": 18.58950243542072,
+        "coefficients": [
+          -4.944794154786023,
+          0.1483644009075551
+        ],
+        "covariance": [
+          [
+            1.857200754815107,
+            -0.43908819311304365
+          ],
+          [
+            -0.43908819311304365,
+            1.741426414647792
+          ]
+        ],
+        "phase_radians": 3.1115974912778666,
+        "amplitude_angstrom": 4.947019428773519,
+        "amplitude_error_angstrom": 1.3723781801322705
+      },
+      "full_exploratory": {
+        "n": 88,
+        "n_nights": 23,
+        "nuisance_rank": 23,
+        "variance_inflation": 5.570389226499962,
+        "null_chi2": 65.0,
+        "chi2": 16.35832153187485,
+        "delta_chi2": 48.64167846812515,
+        "coefficients": [
+          -5.310788729928193,
+          0.16258117499819208
+        ],
+        "covariance": [
+          [
+            0.5799288608016002,
+            -0.011420484503533978
+          ],
+          [
+            -0.011420484503533978,
+            0.46068727513530505
+          ]
+        ],
+        "phase_radians": 3.110988835100278,
+        "amplitude_angstrom": 5.313276726502781,
+        "amplitude_error_angstrom": 0.7619158741165718
+      }
+    },
+    {
+      "feature": "4100",
+      "role": "training_selected",
+      "mode": "fit",
+      "training": {
+        "n": 54,
+        "n_nights": 15,
+        "nuisance_rank": 17,
+        "variance_inflation": 4.334545727649676,
+        "null_chi2": 36.999999999999986,
+        "chi2": 8.084020183706016,
+        "delta_chi2": 28.91597981629397,
+        "coefficients": [
+          -4.956162556869009,
+          -0.017239883813103485
+        ],
+        "covariance": [
+          [
+            0.854672875888746,
+            0.059919056199397025
+          ],
+          [
+            0.059919056199397025,
+            0.624891776184821
+          ]
+        ],
+        "phase_radians": -3.138114193373277,
+        "amplitude_angstrom": 4.956192541024232,
+        "amplitude_error_angstrom": 0.9247091133782637
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 10,
+        "variance_inflation": 6.723506626265824,
+        "null_chi2": 24.0,
+        "chi2": 7.060452260229872,
+        "delta_chi2": 16.939547739770127,
+        "coefficients": [
+          -5.740191279977197,
+          0.12415273598363052
+        ],
+        "covariance": [
+          [
+            2.0307347488819585,
+            -0.4297730682916684
+          ],
+          [
+            -0.4297730682916684,
+            1.757016049972388
+          ]
+        ],
+        "phase_radians": 3.1199673495141935,
+        "amplitude_angstrom": 5.741533752629037,
+        "amplitude_error_angstrom": 1.4314988352126905
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 10,
+        "variance_inflation": 6.723506626265824,
+        "null_chi2": 24.0,
+        "chi2": 7.363512396185433,
+        "delta_chi2": 16.636487603814565,
+        "coefficients": [
+          -4.956162556869009,
+          -0.017239883813103485
+        ],
+        "covariance": [
+          [
+            2.0307347488819585,
+            -0.4297730682916684
+          ],
+          [
+            -0.4297730682916684,
+            1.757016049972388
+          ]
+        ],
+        "phase_radians": -3.138114193373277,
+        "amplitude_angstrom": 4.956192541024232,
+        "amplitude_error_angstrom": 1.4239879086785119
+      },
+      "full_exploratory": {
+        "n": 88,
+        "n_nights": 23,
+        "nuisance_rank": 25,
+        "variance_inflation": 5.5565058670777026,
+        "null_chi2": 63.0,
+        "chi2": 15.892895437707395,
+        "delta_chi2": 47.107104562292605,
+        "coefficients": [
+          -5.404796937726083,
+          0.08828932364919395
+        ],
+        "covariance": [
+          [
+            0.6204480398208009,
+            0.002381886242632013
+          ],
+          [
+            0.0023818862426320127,
+            0.4704403310144115
+          ]
+        ],
+        "phase_radians": 3.1252587426655594,
+        "amplitude_angstrom": 5.405518008731788,
+        "amplitude_error_angstrom": 0.787610452336638
+      }
+    },
+    {
+      "feature": "4400",
+      "role": "full_data_selected_exploratory",
+      "mode": "none",
+      "training": {
+        "n": 51,
+        "n_nights": 15,
+        "nuisance_rank": 15,
+        "variance_inflation": 5.049267690502361,
+        "null_chi2": 36.0,
+        "chi2": 9.130976820750682,
+        "delta_chi2": 26.869023179249318,
+        "coefficients": [
+          -4.825838110751277,
+          -0.6687376006645825
+        ],
+        "covariance": [
+          [
+            0.8667539385295598,
+            0.1217715793643739
+          ],
+          [
+            0.12177157936437388,
+            0.6448010124739554
+          ]
+        ],
+        "phase_radians": -3.0038951843857684,
+        "amplitude_angstrom": 4.8719527347586284,
+        "amplitude_error_angstrom": 0.9464064095091425
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.776267857752684,
+        "null_chi2": 26.0,
+        "chi2": 5.275378754219279,
+        "delta_chi2": 20.72462124578072,
+        "coefficients": [
+          -4.501892534292436,
+          -0.9091664090823013
+        ],
+        "covariance": [
+          [
+            1.1882697643539,
+            -0.28747346697596254
+          ],
+          [
+            -0.28747346697596254,
+            1.1579902491201557
+          ]
+        ],
+        "phase_radians": -2.942320832776598,
+        "amplitude_angstrom": 4.592779109615612,
+        "amplitude_error_angstrom": 1.0370735323262876
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.776267857752684,
+        "null_chi2": 26.0,
+        "chi2": 5.387821405716793,
+        "delta_chi2": 20.612178594283208,
+        "coefficients": [
+          -4.825838110751277,
+          -0.6687376006645825
+        ],
+        "covariance": [
+          [
+            1.1882697643539,
+            -0.28747346697596254
+          ],
+          [
+            -0.28747346697596254,
+            1.1579902491201557
+          ]
+        ],
+        "phase_radians": -3.0038951843857684,
+        "amplitude_angstrom": 4.8719527347586284,
+        "amplitude_error_angstrom": 1.0533410960166432
+      },
+      "full_exploratory": {
+        "n": 85,
+        "n_nights": 23,
+        "nuisance_rank": 23,
+        "variance_inflation": 5.354138728381527,
+        "null_chi2": 62.00000000000001,
+        "chi2": 14.381577475058068,
+        "delta_chi2": 47.61842252494194,
+        "coefficients": [
+          -4.702425638999418,
+          -0.73457502936604
+        ],
+        "covariance": [
+          [
+            0.48001210839524433,
+            -0.005527524200248992
+          ],
+          [
+            -0.005527524200248992,
+            0.4010904353281801
+          ]
+        ],
+        "phase_radians": -2.9866330653270134,
+        "amplitude_angstrom": 4.759454523796524,
+        "amplitude_error_angstrom": 0.6902509184902589
+      }
+    },
+    {
+      "feature": "4400",
+      "role": "full_data_selected_exploratory",
+      "mode": "subtract",
+      "training": {
+        "n": 51,
+        "n_nights": 15,
+        "nuisance_rank": 15,
+        "variance_inflation": 4.86078540992281,
+        "null_chi2": 36.0,
+        "chi2": 8.690517299021927,
+        "delta_chi2": 27.309482700978073,
+        "coefficients": [
+          -4.772419586701808,
+          -0.7598252605800604
+        ],
+        "covariance": [
+          [
+            0.8343991954164836,
+            0.11722601228510347
+          ],
+          [
+            0.11722601228510347,
+            0.6207314695618815
+          ]
+        ],
+        "phase_radians": -2.983706063039341,
+        "amplitude_angstrom": 4.8325276138011475,
+        "amplitude_error_angstrom": 0.9303341746811135
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.747650958314375,
+        "null_chi2": 26.0,
+        "chi2": 5.674400741618818,
+        "delta_chi2": 20.32559925838118,
+        "coefficients": [
+          -4.34013031718798,
+          -1.131613783619144
+        ],
+        "covariance": [
+          [
+            1.1823828149967202,
+            -0.2860492602912619
+          ],
+          [
+            -0.2860492602912618,
+            1.1522533111308382
+          ]
+        ],
+        "phase_radians": -2.886538436088843,
+        "amplitude_angstrom": 4.485229194305578,
+        "amplitude_error_angstrom": 1.020193675201523
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.747650958314375,
+        "null_chi2": 26.0,
+        "chi2": 5.898373647683199,
+        "delta_chi2": 20.1016263523168,
+        "coefficients": [
+          -4.772419586701808,
+          -0.7598252605800604
+        ],
+        "covariance": [
+          [
+            1.1823828149967202,
+            -0.2860492602912619
+          ],
+          [
+            -0.2860492602912618,
+            1.1522533111308382
+          ]
+        ],
+        "phase_radians": -2.983706063039341,
+        "amplitude_angstrom": 4.8325276138011475,
+        "amplitude_error_angstrom": 1.0453731057206164
+      },
+      "full_exploratory": {
+        "n": 85,
+        "n_nights": 23,
+        "nuisance_rank": 23,
+        "variance_inflation": 5.232696768925724,
+        "null_chi2": 62.0,
+        "chi2": 14.468938408120263,
+        "delta_chi2": 47.531061591879734,
+        "coefficients": [
+          -4.61331694248739,
+          -0.867869096504452
+        ],
+        "covariance": [
+          [
+            0.46912452890519046,
+            -0.005402149531441974
+          ],
+          [
+            -0.005402149531441975,
+            0.3919929481586687
+          ]
+        ],
+        "phase_radians": -2.955643333421383,
+        "amplitude_angstrom": 4.694240085520621,
+        "amplitude_error_angstrom": 0.6815607651213135
+      }
+    },
+    {
+      "feature": "4400",
+      "role": "full_data_selected_exploratory",
+      "mode": "fit",
+      "training": {
+        "n": 51,
+        "n_nights": 15,
+        "nuisance_rank": 17,
+        "variance_inflation": 5.0591989423257875,
+        "null_chi2": 34.0,
+        "chi2": 7.622526534521579,
+        "delta_chi2": 26.37747346547842,
+        "coefficients": [
+          -4.932907064686034,
+          -0.7321987447503773
+        ],
+        "covariance": [
+          [
+            0.9255122776169744,
+            0.09272317701328069
+          ],
+          [
+            0.09272317701328069,
+            0.6719788416157361
+          ]
+        ],
+        "phase_radians": -2.9942370531156692,
+        "amplitude_angstrom": 4.986951685212461,
+        "amplitude_error_angstrom": 0.9731287508853962
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 10,
+        "variance_inflation": 6.224124201400801,
+        "null_chi2": 24.0,
+        "chi2": 4.45347017468939,
+        "delta_chi2": 19.54652982531061,
+        "coefficients": [
+          -4.762836434802235,
+          -0.6715362443698107
+        ],
+        "covariance": [
+          [
+            1.5264221492753067,
+            -0.6034880222897406
+          ],
+          [
+            -0.6034880222897407,
+            1.6314529817625134
+          ]
+        ],
+        "phase_radians": -3.001520947873499,
+        "amplitude_angstrom": 4.809945096587068,
+        "amplitude_error_angstrom": 1.1668799948380764
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 10,
+        "variance_inflation": 6.224124201400801,
+        "null_chi2": 24.0,
+        "chi2": 4.484163906593666,
+        "delta_chi2": 19.515836093406335,
+        "coefficients": [
+          -4.932907064686034,
+          -0.7321987447503773
+        ],
+        "covariance": [
+          [
+            1.5264221492753067,
+            -0.6034880222897406
+          ],
+          [
+            -0.6034880222897407,
+            1.6314529817625134
+          ]
+        ],
+        "phase_radians": -2.9942370531156692,
+        "amplitude_angstrom": 4.986951685212461,
+        "amplitude_error_angstrom": 1.1633550805692983
+      },
+      "full_exploratory": {
+        "n": 85,
+        "n_nights": 23,
+        "nuisance_rank": 25,
+        "variance_inflation": 5.366265244843514,
+        "null_chi2": 60.0,
+        "chi2": 13.722709364109173,
+        "delta_chi2": 46.27729063589083,
+        "coefficients": [
+          -4.7074419798196425,
+          -0.8147377010040519
+        ],
+        "covariance": [
+          [
+            0.5089332676359589,
+            -0.02947592493862583
+          ],
+          [
+            -0.02947592493862583,
+            0.43399211231462487
+          ]
+        ],
+        "phase_radians": -2.9702159759036455,
+        "amplitude_angstrom": 4.777426871738137,
+        "amplitude_error_angstrom": 0.7048740293763437
+      }
+    },
+    {
+      "feature": "4700",
+      "role": "full_data_selected_exploratory",
+      "mode": "none",
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 17,
+        "variance_inflation": 2.489000107594653,
+        "null_chi2": 41.0,
+        "chi2": 12.349078778426472,
+        "delta_chi2": 28.650921221573526,
+        "coefficients": [
+          3.325720132602732,
+          -0.32428005960873435
+        ],
+        "covariance": [
+          [
+            0.40040288619439635,
+            0.01997232868809996
+          ],
+          [
+            0.01997232868809996,
+            0.23478405999269408
+          ]
+        ],
+        "phase_radians": -0.09719945326065477,
+        "amplitude_angstrom": 3.3414924745477097,
+        "amplitude_error_angstrom": 0.6284782371728918
+      },
+      "validation": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 7,
+        "variance_inflation": 2.3286041974890033,
+        "null_chi2": 19.000000000000007,
+        "chi2": 5.089458132731246,
+        "delta_chi2": 13.910541867268762,
+        "coefficients": [
+          3.173079038912887,
+          -0.07439767662435151
+        ],
+        "covariance": [
+          [
+            0.7239658090550767,
+            -0.029096672536468818
+          ],
+          [
+            -0.02909667253646882,
+            0.87973793031539
+          ]
+        ],
+        "phase_radians": -0.023442229800334072,
+        "amplitude_angstrom": 3.173951102565292,
+        "amplitude_error_angstrom": 0.8517130256959097
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 7,
+        "variance_inflation": 2.3286041974890033,
+        "null_chi2": 19.000000000000007,
+        "chi2": 5.189265685009557,
+        "delta_chi2": 13.81073431499045,
+        "coefficients": [
+          3.325720132602732,
+          -0.32428005960873435
+        ],
+        "covariance": [
+          [
+            0.7239658090550767,
+            -0.029096672536468818
+          ],
+          [
+            -0.02909667253646882,
+            0.87973793031539
+          ]
+        ],
+        "phase_radians": -0.09719945326065477,
+        "amplitude_angstrom": 3.3414924745477097,
+        "amplitude_error_angstrom": 0.8550167692741332
+      },
+      "full_exploratory": {
+        "n": 84,
+        "n_nights": 23,
+        "nuisance_rank": 24,
+        "variance_inflation": 2.438208069394531,
+        "null_chi2": 60.0,
+        "chi2": 17.540881781403147,
+        "delta_chi2": 42.459118218596856,
+        "coefficients": [
+          3.278696146733974,
+          -0.2771953535260372
+        ],
+        "covariance": [
+          [
+            0.2580138447008729,
+            0.008237542843984041
+          ],
+          [
+            0.008237542843984041,
+            0.183630225585732
+          ]
+        ],
+        "phase_radians": -0.08434381163794691,
+        "amplitude_angstrom": 3.290392938028015,
+        "amplitude_error_angstrom": 0.5060661533139194
+      }
+    },
+    {
+      "feature": "4700",
+      "role": "full_data_selected_exploratory",
+      "mode": "subtract",
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 17,
+        "variance_inflation": 2.460532623901399,
+        "null_chi2": 40.99999999999999,
+        "chi2": 11.755917415785902,
+        "delta_chi2": 29.24408258421409,
+        "coefficients": [
+          3.330790808585438,
+          -0.3639863143344559
+        ],
+        "covariance": [
+          [
+            0.3958233513849399,
+            0.019743898830057782
+          ],
+          [
+            0.019743898830057782,
+            0.2320987602295948
+          ]
+        ],
+        "phase_radians": -0.10884733580010793,
+        "amplitude_angstrom": 3.3506198602019923,
+        "amplitude_error_angstrom": 0.6242010573839897
+      },
+      "validation": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 7,
+        "variance_inflation": 2.493911251589882,
+        "null_chi2": 19.0,
+        "chi2": 4.532320921397959,
+        "delta_chi2": 14.46767907860204,
+        "coefficients": [
+          3.347861441019711,
+          -0.2418283791810132
+        ],
+        "covariance": [
+          [
+            0.7753599683946951,
+            -0.031162238348953507
+          ],
+          [
+            -0.031162238348953507,
+            0.942190315223937
+          ]
+        ],
+        "phase_radians": -0.0721084485837115,
+        "amplitude_angstrom": 3.356584155543235,
+        "amplitude_error_angstrom": 0.8835748303143824
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 7,
+        "variance_inflation": 2.493911251589882,
+        "null_chi2": 19.0,
+        "chi2": 4.5487346386486855,
+        "delta_chi2": 14.451265361351314,
+        "coefficients": [
+          3.330790808585438,
+          -0.3639863143344559
+        ],
+        "covariance": [
+          [
+            0.7753599683946951,
+            -0.031162238348953507
+          ],
+          [
+            -0.031162238348953507,
+            0.942190315223937
+          ]
+        ],
+        "phase_radians": -0.10884733580010793,
+        "amplitude_angstrom": 3.3506198602019923,
+        "amplitude_error_angstrom": 0.8854711376472442
+      },
+      "full_exploratory": {
+        "n": 84,
+        "n_nights": 23,
+        "nuisance_rank": 24,
+        "variance_inflation": 2.4711025226694185,
+        "null_chi2": 60.0,
+        "chi2": 16.292863462995836,
+        "delta_chi2": 43.70713653700416,
+        "coefficients": [
+          3.3390858924674083,
+          -0.33923507597603086
+        ],
+        "covariance": [
+          [
+            0.2614947717248306,
+            0.008348677521775755
+          ],
+          [
+            0.008348677521775755,
+            0.18610762525937305
+          ]
+        ],
+        "phase_radians": -0.10124780086282571,
+        "amplitude_angstrom": 3.3562739807779898,
+        "amplitude_error_angstrom": 0.508965191039934
+      }
+    },
+    {
+      "feature": "4700",
+      "role": "full_data_selected_exploratory",
+      "mode": "fit",
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 19,
+        "variance_inflation": 2.5825090772484702,
+        "null_chi2": 39.0,
+        "chi2": 10.875779162216517,
+        "delta_chi2": 28.124220837783483,
+        "coefficients": [
+          3.341584638790969,
+          -0.4091284219087214
+        ],
+        "covariance": [
+          [
+            0.41617941505353806,
+            0.019906889766834208
+          ],
+          [
+            0.019906889766834208,
+            0.25112388891966464
+          ]
+        ],
+        "phase_radians": -0.1218291081373651,
+        "amplitude_angstrom": 3.36653738488336,
+        "amplitude_error_angstrom": 0.6394834461820894
+      },
+      "validation": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 9,
+        "variance_inflation": 2.3288791719136346,
+        "null_chi2": 17.0,
+        "chi2": 4.805125392629463,
+        "delta_chi2": 12.194874607370537,
+        "coefficients": [
+          3.450174795693097,
+          -0.30188106651208935
+        ],
+        "covariance": [
+          [
+            0.9990301789524966,
+            -0.24222005392620827
+          ],
+          [
+            -0.24222005392620827,
+            1.0809663612127998
+          ]
+        ],
+        "phase_radians": -0.08727505859197944,
+        "amplitude_angstrom": 3.463356507660506,
+        "amplitude_error_angstrom": 1.020645810530546
+      },
+      "validation_unchanged_amplitude_phase": {
+        "n": 26,
+        "n_nights": 7,
+        "nuisance_rank": 9,
+        "variance_inflation": 2.3288791719136346,
+        "null_chi2": 17.0,
+        "chi2": 4.834382940404579,
+        "delta_chi2": 12.165617059595421,
+        "coefficients": [
+          3.341584638790969,
+          -0.4091284219087214
+        ],
+        "covariance": [
+          [
+            0.9990301789524966,
+            -0.24222005392620827
+          ],
+          [
+            -0.24222005392620827,
+            1.0809663612127998
+          ]
+        ],
+        "phase_radians": -0.1218291081373651,
+        "amplitude_angstrom": 3.36653738488336,
+        "amplitude_error_angstrom": 1.02892028362495
+      },
+      "full_exploratory": {
+        "n": 84,
+        "n_nights": 23,
+        "nuisance_rank": 26,
+        "variance_inflation": 2.501613812724411,
+        "null_chi2": 58.00000000000001,
+        "chi2": 15.795755234034242,
+        "delta_chi2": 42.20424476596577,
+        "coefficients": [
+          3.403556409255398,
+          -0.3872535241228615
+        ],
+        "covariance": [
+          [
+            0.27924609820366625,
+            -0.0007500365380586546
+          ],
+          [
+            -0.0007500365380586546,
+            0.1984536813277204
+          ]
+        ],
+        "phase_radians": -0.11329187833762581,
+        "amplitude_angstrom": 3.4255162418136442,
+        "amplitude_error_angstrom": 0.5276192264502951
+      }
+    }
+  ],
+  "comparison_star_tests": [
+    {
+      "n": 44,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 25.413442104670153,
+      "chi2": 24.862219615467104,
+      "delta_chi2": 0.5512224892030488,
+      "coefficients": [
+        -0.15394398809206264,
+        -0.13085236112200063
+      ],
+      "covariance": [
+        [
+          0.07892443817181918,
+          0.0061599683023216495
+        ],
+        [
+          0.0061599683023216495,
+          0.05675580592156135
+        ]
+      ],
+      "phase_radians": -2.4370986977927838,
+      "amplitude_angstrom": 0.20204230220647257,
+      "amplitude_error_angstrom": 0.27514604411271326,
+      "sdss_id": 80362348,
+      "feature": "4100"
+    },
+    {
+      "n": 72,
+      "n_nights": 21,
+      "nuisance_rank": 21,
+      "variance_inflation": 1,
+      "null_chi2": 21.226613201402337,
+      "chi2": 21.186191086086698,
+      "delta_chi2": 0.04042211531563922,
+      "coefficients": [
+        -0.00013394948944583322,
+        0.02998552831187791
+      ],
+      "covariance": [
+        [
+          0.024573687426252492,
+          -0.0023302503313472073
+        ],
+        [
+          -0.0023302503313472078,
+          0.022446095200515506
+        ]
+      ],
+      "phase_radians": 1.5752634349632646,
+      "amplitude_angstrom": 0.029985827495804654,
+      "amplitude_error_angstrom": 0.14988981399705448,
+      "sdss_id": 80362649,
+      "feature": "4100"
+    },
+    {
+      "n": 43,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 26.114458785685844,
+      "chi2": 25.557747403616684,
+      "delta_chi2": 0.5567113820691603,
+      "coefficients": [
+        0.1862618719360274,
+        -0.01620780499486444
+      ],
+      "covariance": [
+        [
+          0.06340657365607366,
+          0.0014125402051344369
+        ],
+        [
+          0.0014125402051344369,
+          0.043415719610593345
+        ]
+      ],
+      "phase_radians": -0.08679759377710133,
+      "amplitude_angstrom": 0.1869657131130321,
+      "amplitude_error_angstrom": 0.2510226354239925,
+      "sdss_id": 80364554,
+      "feature": "4100"
+    },
+    {
+      "n": 10,
+      "n_nights": 3,
+      "nuisance_rank": 3,
+      "variance_inflation": 1,
+      "null_chi2": 1.4700803099322237,
+      "chi2": 0.8791493535423329,
+      "delta_chi2": 0.5909309563898908,
+      "coefficients": [
+        0.24062056521178543,
+        0.19068378748174158
+      ],
+      "covariance": [
+        [
+          0.1652177027677616,
+          0.014301462036500475
+        ],
+        [
+          0.014301462036500477,
+          0.12120246472211912
+        ]
+      ],
+      "phase_radians": 0.6701305626634879,
+      "amplitude_angstrom": 0.3070155748674993,
+      "amplitude_error_angstrom": 0.402693307446052,
+      "sdss_id": 80364633,
+      "feature": "4100"
+    },
+    {
+      "n": 14,
+      "n_nights": 6,
+      "nuisance_rank": 6,
+      "variance_inflation": 1,
+      "null_chi2": 3.455249540877514,
+      "chi2": 3.2499872216457564,
+      "delta_chi2": 0.20526231923175775,
+      "coefficients": [
+        0.04467576809953283,
+        -0.29451609939179185
+      ],
+      "covariance": [
+        [
+          0.152559538358794,
+          -0.020892485701522728
+        ],
+        [
+          -0.020892485701522728,
+          0.4356513258619336
+        ]
+      ],
+      "phase_radians": -1.4202519175601083,
+      "amplitude_angstrom": 0.2978853085605919,
+      "amplitude_error_angstrom": 0.6599088151953225,
+      "sdss_id": 80364730,
+      "feature": "4100"
+    },
+    {
+      "n": 51,
+      "n_nights": 14,
+      "nuisance_rank": 14,
+      "variance_inflation": 1,
+      "null_chi2": 28.201760019351486,
+      "chi2": 26.698474898407298,
+      "delta_chi2": 1.503285120944188,
+      "coefficients": [
+        -0.06697746108618478,
+        -0.17649154173541057
+      ],
+      "covariance": [
+        [
+          0.030354182411142308,
+          -0.0026984894839612956
+        ],
+        [
+          -0.0026984894839612956,
+          0.02479655676743091
+        ]
+      ],
+      "phase_radians": -1.933501010056602,
+      "amplitude_angstrom": 0.18877299753326365,
+      "amplitude_error_angstrom": 0.15396718354897665,
+      "sdss_id": 80611975,
+      "feature": "4100"
+    },
+    {
+      "n": 43,
+      "n_nights": 11,
+      "nuisance_rank": 11,
+      "variance_inflation": 1,
+      "null_chi2": 13.985438386642798,
+      "chi2": 13.518062702304311,
+      "delta_chi2": 0.46737568433848686,
+      "coefficients": [
+        0.1353574298217231,
+        -0.020015513400765177
+      ],
+      "covariance": [
+        [
+          0.039209698071439564,
+          -0.005269939081623772
+        ],
+        [
+          -0.005269939081623773,
+          0.033075107265131756
+        ]
+      ],
+      "phase_radians": -0.14680769000289592,
+      "amplitude_angstrom": 0.13682928993690974,
+      "amplitude_error_angstrom": 0.20150341840510033,
+      "sdss_id": 80612147,
+      "feature": "4100"
+    },
+    {
+      "n": 19,
+      "n_nights": 7,
+      "nuisance_rank": 7,
+      "variance_inflation": 1,
+      "null_chi2": 9.176072382795084,
+      "chi2": 7.915357025408553,
+      "delta_chi2": 1.2607153573865313,
+      "coefficients": [
+        -0.2690976917836987,
+        -0.36433503032733844
+      ],
+      "covariance": [
+        [
+          0.18306921633810663,
+          -0.04290672182426631
+        ],
+        [
+          -0.04290672182426631,
+          0.22120122089153324
+        ]
+      ],
+      "phase_radians": -2.2069611367992237,
+      "amplitude_angstrom": 0.45293882815115016,
+      "amplitude_error_angstrom": 0.40832820401519054,
+      "sdss_id": 80613906,
+      "feature": "4100"
+    },
+    {
+      "n": 45,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 25.423730097488743,
+      "chi2": 23.73775828277457,
+      "delta_chi2": 1.685971814714172,
+      "coefficients": [
+        -0.3071770998178673,
+        0.11541459731388659
+      ],
+      "covariance": [
+        [
+          0.07142371167574414,
+          0.005235235484926922
+        ],
+        [
+          0.005235235484926922,
+          0.052524394411980556
+        ]
+      ],
+      "phase_radians": 2.782185144886575,
+      "amplitude_angstrom": 0.3281437184004024,
+      "amplitude_error_angstrom": 0.25619986625738156,
+      "sdss_id": 80362348,
+      "feature": "4400"
+    },
+    {
+      "n": 73,
+      "n_nights": 19,
+      "nuisance_rank": 19,
+      "variance_inflation": 1,
+      "null_chi2": 31.095575329240702,
+      "chi2": 30.65784847721249,
+      "delta_chi2": 0.43772685202821293,
+      "coefficients": [
+        0.09534110193026456,
+        0.031998921837329136
+      ],
+      "covariance": [
+        [
+          0.02522633817559285,
+          -0.0017964345287443976
+        ],
+        [
+          -0.0017964345287443976,
+          0.01956842307386298
+        ]
+      ],
+      "phase_radians": 0.3238122425296824,
+      "amplitude_angstrom": 0.10056767232082382,
+      "amplitude_error_angstrom": 0.15352443158709736,
+      "sdss_id": 80362649,
+      "feature": "4400"
+    },
+    {
+      "n": 45,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 11.033151023133826,
+      "chi2": 9.177882438851308,
+      "delta_chi2": 1.855268584282518,
+      "coefficients": [
+        -0.16669340618956252,
+        0.23586831580252038
+      ],
+      "covariance": [
+        [
+          0.05520349496066426,
+          0.0019790266169891512
+        ],
+        [
+          0.0019790266169891512,
+          0.0433343778270878
+        ]
+      ],
+      "phase_radians": 2.1860196895573116,
+      "amplitude_angstrom": 0.2888261658274679,
+      "amplitude_error_angstrom": 0.21312525927741427,
+      "sdss_id": 80364554,
+      "feature": "4400"
+    },
+    {
+      "n": 15,
+      "n_nights": 5,
+      "nuisance_rank": 5,
+      "variance_inflation": 1,
+      "null_chi2": 5.28459315609898,
+      "chi2": 2.771206058516351,
+      "delta_chi2": 2.513387097582629,
+      "coefficients": [
+        -0.23423365331715984,
+        0.5500479454010974
+      ],
+      "covariance": [
+        [
+          0.1275888298100698,
+          -0.033172386703178125
+        ],
+        [
+          -0.033172386703178125,
+          0.12347042730102117
+        ]
+      ],
+      "phase_radians": 1.973380149121073,
+      "amplitude_angstrom": 0.5978445839733534,
+      "amplitude_error_angstrom": 0.38473126842575206,
+      "sdss_id": 80364633,
+      "feature": "4400"
+    },
+    {
+      "n": 11,
+      "n_nights": 5,
+      "nuisance_rank": 5,
+      "variance_inflation": 1,
+      "null_chi2": 1.9414926144331006,
+      "chi2": 1.5706596464210956,
+      "delta_chi2": 0.37083296801200505,
+      "coefficients": [
+        -0.27125053701480656,
+        0.0315891035502155
+      ],
+      "covariance": [
+        [
+          0.20075083147663964,
+          0.011925257589753864
+        ],
+        [
+          0.011925257589753864,
+          0.5268823445038457
+        ]
+      ],
+      "phase_radians": 3.0256575927760707,
+      "amplitude_angstrom": 0.2730837331184836,
+      "amplitude_error_angstrom": 0.44986035650608214,
+      "sdss_id": 80364730,
+      "feature": "4400"
+    },
+    {
+      "n": 46,
+      "n_nights": 14,
+      "nuisance_rank": 14,
+      "variance_inflation": 1,
+      "null_chi2": 19.12516548926507,
+      "chi2": 16.54865843734948,
+      "delta_chi2": 2.5765070519155877,
+      "coefficients": [
+        -0.2209621312176255,
+        0.22800494050982048
+      ],
+      "covariance": [
+        [
+          0.04025019419643718,
+          -0.0025072121243362197
+        ],
+        [
+          -0.0025072121243362197,
+          0.03381928135966175
+        ]
+      ],
+      "phase_radians": 2.3405090821955317,
+      "amplitude_angstrom": 0.3175067185574534,
+      "amplitude_error_angstrom": 0.19859471631249342,
+      "sdss_id": 80611975,
+      "feature": "4400"
+    },
+    {
+      "n": 41,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 8.724839123231014,
+      "chi2": 8.610097620062728,
+      "delta_chi2": 0.11474150316828613,
+      "coefficients": [
+        -0.06015175361738445,
+        0.05172413356503711
+      ],
+      "covariance": [
+        [
+          0.04788368037242335,
+          -0.010275955354195617
+        ],
+        [
+          -0.010275955354195617,
+          0.04066092400538589
+        ]
+      ],
+      "phase_radians": 2.431382568125851,
+      "amplitude_angstrom": 0.07933233550262038,
+      "amplitude_error_angstrom": 0.23446388218789904,
+      "sdss_id": 80612147,
+      "feature": "4400"
+    },
+    {
+      "n": 24,
+      "n_nights": 8,
+      "nuisance_rank": 8,
+      "variance_inflation": 1.1038146766046968,
+      "null_chi2": 16.000000000000007,
+      "chi2": 15.685304864449533,
+      "delta_chi2": 0.31469513555047435,
+      "coefficients": [
+        -0.1414745335338549,
+        0.16304027796227125
+      ],
+      "covariance": [
+        [
+          0.12511168093961428,
+          -0.011577644056805813
+        ],
+        [
+          -0.011577644056805813,
+          0.14639755680613173
+        ]
+      ],
+      "phase_radians": 2.2854925158536763,
+      "amplitude_angstrom": 0.21586379010069406,
+      "amplitude_error_angstrom": 0.38563797908244607,
+      "sdss_id": 80613906,
+      "feature": "4400"
+    },
+    {
+      "n": 45,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 22.52170896701216,
+      "chi2": 22.432319434849898,
+      "delta_chi2": 0.08938953216226153,
+      "coefficients": [
+        -0.04938807252965752,
+        0.048064783067951554
+      ],
+      "covariance": [
+        [
+          0.06138601781714222,
+          0.0013440619849345347
+        ],
+        [
+          0.0013440619849345347,
+          0.048672527946707324
+        ]
+      ],
+      "phase_radians": 2.3697724211000866,
+      "amplitude_angstrom": 0.068915927618831,
+      "amplitude_error_angstrom": 0.23207392813700764,
+      "sdss_id": 80362348,
+      "feature": "4700"
+    },
+    {
+      "n": 81,
+      "n_nights": 22,
+      "nuisance_rank": 22,
+      "variance_inflation": 1,
+      "null_chi2": 9.524082309770566,
+      "chi2": 9.337398985624562,
+      "delta_chi2": 0.18668332414600464,
+      "coefficients": [
+        0.02578350382239397,
+        0.04712773600016249
+      ],
+      "covariance": [
+        [
+          0.0215645477167726,
+          -0.0023324963012350437
+        ],
+        [
+          -0.0023324963012350437,
+          0.016239308442893147
+        ]
+      ],
+      "phase_radians": 1.0701836448654614,
+      "amplitude_angstrom": 0.05371975958490895,
+      "amplitude_error_angstrom": 0.12450616179168342,
+      "sdss_id": 80362649,
+      "feature": "4700"
+    },
+    {
+      "n": 46,
+      "n_nights": 12,
+      "nuisance_rank": 12,
+      "variance_inflation": 1,
+      "null_chi2": 11.568421746158782,
+      "chi2": 11.106855040042541,
+      "delta_chi2": 0.4615667061162405,
+      "coefficients": [
+        -0.05301975912613659,
+        -0.12206219408336205
+      ],
+      "covariance": [
+        [
+          0.04806919133561912,
+          0.0020062104963336934
+        ],
+        [
+          0.0020062104963336934,
+          0.03571843920978729
+        ]
+      ],
+      "phase_radians": -1.9805738737507748,
+      "amplitude_angstrom": 0.13307995372045292,
+      "amplitude_error_angstrom": 0.19785109992105746,
+      "sdss_id": 80364554,
+      "feature": "4700"
+    },
+    {
+      "n": 26,
+      "n_nights": 8,
+      "nuisance_rank": 8,
+      "variance_inflation": 1,
+      "null_chi2": 4.503615229534691,
+      "chi2": 4.352423505296862,
+      "delta_chi2": 0.15119172423782867,
+      "coefficients": [
+        0.004235587910396996,
+        -0.09823453777890397
+      ],
+      "covariance": [
+        [
+          0.06775826785170216,
+          -0.018344362973488945
+        ],
+        [
+          -0.018344362973488945,
+          0.06742077200723987
+        ]
+      ],
+      "phase_radians": -1.5277059213332524,
+      "amplitude_angstrom": 0.098325808502049,
+      "amplitude_error_angstrom": 0.2626792228447532,
+      "sdss_id": 80364633,
+      "feature": "4700"
+    },
+    {
+      "n": 17,
+      "n_nights": 6,
+      "nuisance_rank": 6,
+      "variance_inflation": 1,
+      "null_chi2": 2.7522213061037477,
+      "chi2": 2.2850894386336655,
+      "delta_chi2": 0.4671318674700822,
+      "coefficients": [
+        -0.2307400156198211,
+        0.09152830288054525
+      ],
+      "covariance": [
+        [
+          0.11426385640245067,
+          -0.03973598024252058
+        ],
+        [
+          -0.03973598024252058,
+          0.1213806202306738
+        ]
+      ],
+      "phase_radians": 2.763957783560972,
+      "amplitude_angstrom": 0.24823050786804612,
+      "amplitude_error_angstrom": 0.37745178472473623,
+      "sdss_id": 80364730,
+      "feature": "4700"
+    },
+    {
+      "n": 56,
+      "n_nights": 18,
+      "nuisance_rank": 18,
+      "variance_inflation": 1,
+      "null_chi2": 8.415317200199475,
+      "chi2": 7.697884588701406,
+      "delta_chi2": 0.7174326114980687,
+      "coefficients": [
+        -0.12831821781059488,
+        0.08576938910794636
+      ],
+      "covariance": [
+        [
+          0.03844264418440654,
+          0.0004333598801986521
+        ],
+        [
+          0.0004333598801986521,
+          0.02631465246470964
+        ]
+      ],
+      "phase_radians": 2.5523829713271833,
+      "amplitude_angstrom": 0.1543436203088342,
+      "amplitude_error_angstrom": 0.18519451554605915,
+      "sdss_id": 80611975,
+      "feature": "4700"
+    },
+    {
+      "n": 26,
+      "n_nights": 10,
+      "nuisance_rank": 10,
+      "variance_inflation": 1,
+      "null_chi2": 1.0610079505707295,
+      "chi2": 0.6399465442662275,
+      "delta_chi2": 0.42106140630450195,
+      "coefficients": [
+        -0.20872793110202809,
+        0.048134005715520956
+      ],
+      "covariance": [
+        [
+          0.10532327957232314,
+          -0.011933881233867849
+        ],
+        [
+          -0.011933881233867849,
+          0.08227291433932475
+        ]
+      ],
+      "phase_radians": 2.9149483681139223,
+      "amplitude_angstrom": 0.21420604970064405,
+      "amplitude_error_angstrom": 0.3307348026423581,
+      "sdss_id": 80612147,
+      "feature": "4700"
+    },
+    {
+      "n": 38,
+      "n_nights": 11,
+      "nuisance_rank": 11,
+      "variance_inflation": 1,
+      "null_chi2": 13.990736437909183,
+      "chi2": 12.664736319356376,
+      "delta_chi2": 1.3260001185528072,
+      "coefficients": [
+        0.28114203911199664,
+        0.10921019641582219
+      ],
+      "covariance": [
+        [
+          0.07830499224011976,
+          -0.006674611436760473
+        ],
+        [
+          -0.006674611436760473,
+          0.05658678671570999
+        ]
+      ],
+      "phase_radians": 0.3705117647720777,
+      "amplitude_angstrom": 0.3016085429115593,
+      "amplitude_error_angstrom": 0.26636787415138874,
+      "sdss_id": 80613906,
+      "feature": "4700"
+    }
+  ],
+  "full_sample_diagnostic_nulls": [
+    {
+      "feature": "4100",
+      "mode": "none",
+      "draws": 100000,
+      "n_nights": 23,
+      "observed": 48.55584923737156,
+      "exceedances": 0,
+      "plus_one_tail": 9.99990000099999e-06,
+      "max_simulated": 45.28327078918541,
+      "interpretation": "Exploratory full-sample fixed-feature/frequency night-sign null; does not rerun620trial training selection, so it is not a discovery FAP."
+    },
+    {
+      "feature": "4100",
+      "mode": "subtract",
+      "draws": 100000,
+      "n_nights": 23,
+      "observed": 48.64167846812515,
+      "exceedances": 0,
+      "plus_one_tail": 9.99990000099999e-06,
+      "max_simulated": 45.20237311195049,
+      "interpretation": "Exploratory full-sample fixed-feature/frequency night-sign null; does not rerun620trial training selection, so it is not a discovery FAP."
+    },
+    {
+      "feature": "4100",
+      "mode": "fit",
+      "draws": 100000,
+      "n_nights": 23,
+      "observed": 47.107104562292605,
+      "exceedances": 0,
+      "plus_one_tail": 9.99990000099999e-06,
+      "max_simulated": 45.6591212011179,
+      "interpretation": "Exploratory full-sample fixed-feature/frequency night-sign null; does not rerun620trial training selection, so it is not a discovery FAP."
+    }
+  ],
+  "limitations": [
+    "Primary4100Afeature/frequency chosen in training spectra;4400/4700selected after full-sample inspection and remain exploratory.",
+    "Common-mode subtraction and fitting reuse the same photons; ensemble scatter and estimated mean errors are propagated approximately.",
+    "Phenomenological EW includes local spectral curvature; feature labels are wavelengths, not atomic line identifications.",
+    "0.5Aerrorfloor and null variance inflation, no clipping by flux or phase."
+  ]
+}

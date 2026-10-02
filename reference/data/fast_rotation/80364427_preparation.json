@@ -1,0 +1,30 @@
+{
+  "sdss_id": 80364427,
+  "gaia_dr3_source_id": "3915674026806527616",
+  "input_sha256": "7365a772fa00b6dfc1044b85d49b09a2b5d6d747e6cbd65a44590a155bf7ac58",
+  "method_version": 2,
+  "n_raw": 887,
+  "n_clean": 759,
+  "n_discovery": 633,
+  "n_validation": 126,
+  "bands": [
+    "zg",
+    "zr"
+  ],
+  "split_night_mjd": 59965.0,
+  "n_nights": 413,
+  "role": "prospective extension target",
+  "known_control": "",
+  "previously_examined_ztf": false,
+  "reconstructed_hjd_minus_archive_seconds_percentiles": [
+    -0.003701448440551758,
+    0.0003218650817871094,
+    0.003178417682647705
+  ],
+  "exposure_seconds": [
+    30,
+    90
+  ],
+  "association": "Within1.5arcsec of Gaia proper-motion track; OID centroids retained, no variability-based association.",
+  "time_system": "Exposure-midpoint BJD TDB\u22122458000; MJD_UTC start plus half exposure; Palomar geodetic position."
+}

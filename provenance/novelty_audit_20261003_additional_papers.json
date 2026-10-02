@@ -1,0 +1,18 @@
+[
+  {
+    "arxiv_id": "2301.08862",
+    "url": "https://arxiv.org/pdf/2301.08862",
+    "status": "verified_pdf_and_text",
+    "file": "raw/fast_rotation/literature/2301.08862.pdf",
+    "bytes": 4989120,
+    "sha256": "946641191b1d7891ea95dbc0fef201823edeec958a1567fb75bbd45249a58ce8"
+  },
+  {
+    "arxiv_id": "2401.15158",
+    "url": "https://arxiv.org/pdf/2401.15158",
+    "status": "verified_pdf_and_text",
+    "file": "raw/fast_rotation/literature/2401.15158.pdf",
+    "bytes": 6728399,
+    "sha256": "9c3f8c687f3263bb2133e539cd297a4c7256cf4c942e4b80e95b79aad7796cce"
+  }
+]

@@ -1,0 +1,1079 @@
+{
+  "tests": [
+    {
+      "variant": "baseline",
+      "config": {
+        "degree": 1,
+        "mask": 437059584,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": false,
+        "floor": 0.5,
+        "trend": false
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 4.885551236853535,
+        "delta_chi2": 33.93868644599044,
+        "coefficients": [
+          -5.009695637762664,
+          0.004049825428134729
+        ],
+        "covariance": [
+          [
+            0.7422498124609632,
+            0.03551741484558929
+          ],
+          [
+            0.03551741484558929,
+            0.4712554061112113
+          ]
+        ],
+        "amplitude_angstrom": 5.009697274696771,
+        "phase_radians": 3.1407842562661292
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.857485745679451,
+        "delta_chi2": 18.800879200054354,
+        "coefficients": [
+          -5.831578535499083,
+          0.505531380229861
+        ],
+        "covariance": [
+          [
+            1.8550974508431843,
+            -0.4413190983038622
+          ],
+          [
+            -0.4413190983038621,
+            1.7626075434739872
+          ]
+        ],
+        "amplitude_angstrom": 5.85344942679876,
+        "phase_radians": 3.0551202319218853
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 6.021879137286974,
+        "delta_chi2": 51.69361585291253,
+        "coefficients": [
+          -5.298091979434208,
+          0.11180590646487225
+        ],
+        "covariance": [
+          [
+            0.5433140862203267,
+            -0.022593956979281172
+          ],
+          [
+            -0.022593956979281172,
+            0.3985586728314812
+          ]
+        ],
+        "amplitude_angstrom": 5.299271571005351,
+        "phase_radians": 3.120492734191662
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.857485745679451,
+        "delta_chi2": 18.380278725876146,
+        "coefficients": [
+          -5.009695637762664,
+          0.004049825428134729
+        ],
+        "covariance": [
+          [
+            1.8550974508431843,
+            -0.4413190983038622
+          ],
+          [
+            -0.4413190983038621,
+            1.7626075434739872
+          ]
+        ],
+        "amplitude_angstrom": 5.009697274696771,
+        "phase_radians": 3.1407842562661292
+      }
+    },
+    {
+      "variant": "one_angstrom_floor",
+      "config": {
+        "degree": 1,
+        "mask": 437059584,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": false,
+        "floor": 1.0,
+        "trend": false
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 3.55400611337921,
+        "delta_chi2": 33.39188703067565,
+        "coefficients": [
+          -5.0300906182534355,
+          -0.0032862502581049724
+        ],
+        "covariance": [
+          [
+            0.7591447034884522,
+            0.02714457723937826
+          ],
+          [
+            0.02714457723937826,
+            0.49965436961552856
+          ]
+        ],
+        "amplitude_angstrom": 5.030091691737039,
+        "phase_radians": -3.1409393353814434
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.915041385831785,
+        "delta_chi2": 18.464534992533128,
+        "coefficients": [
+          -5.812598377476358,
+          0.40614143048866036
+        ],
+        "covariance": [
+          [
+            1.890812018438891,
+            -0.455261391209565
+          ],
+          [
+            -0.455261391209565,
+            1.7657425427522129
+          ]
+        ],
+        "amplitude_angstrom": 5.826770182476753,
+        "phase_radians": 3.0718334200335655
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 4.456754894022842,
+        "delta_chi2": 50.827359694397835,
+        "coefficients": [
+          -5.318197966824267,
+          0.08679604474492689
+        ],
+        "covariance": [
+          [
+            0.5576631021064303,
+            -0.031542766810136985
+          ],
+          [
+            -0.03154276681013698,
+            0.41836616699897644
+          ]
+        ],
+        "amplitude_angstrom": 5.318906200311972,
+        "phase_radians": 3.1252735281730413
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 5.915041385831785,
+        "delta_chi2": 18.111199993014,
+        "coefficients": [
+          -5.0300906182534355,
+          -0.0032862502581049724
+        ],
+        "covariance": [
+          [
+            1.890812018438891,
+            -0.455261391209565
+          ],
+          [
+            -0.455261391209565,
+            1.7657425427522129
+          ]
+        ],
+        "amplitude_angstrom": 5.030091691737039,
+        "phase_radians": -3.1409393353814434
+      }
+    },
+    {
+      "variant": "quadratic_continuum",
+      "config": {
+        "degree": 2,
+        "mask": 437059584,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": false,
+        "floor": 0.5,
+        "trend": false
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 1.401429363000513,
+        "delta_chi2": 15.07253978314781,
+        "coefficients": [
+          -4.373015830348193,
+          -0.10073240330237812
+        ],
+        "covariance": [
+          [
+            1.2723803555866673,
+            0.08151100199635414
+          ],
+          [
+            0.08151100199635412,
+            0.7534622127249836
+          ]
+        ],
+        "amplitude_angstrom": 4.374175861753957,
+        "phase_radians": -3.118561730239833
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 1.977124838173924,
+        "delta_chi2": 10.546145956540498,
+        "coefficients": [
+          -5.486353813903481,
+          2.199474462843509
+        ],
+        "covariance": [
+          [
+            2.9282408276446645,
+            -0.7321985376876666
+          ],
+          [
+            -0.7321985376876667,
+            2.749364878346276
+          ]
+        ],
+        "amplitude_angstrom": 5.910817717036621,
+        "phase_radians": 2.7603114060683516
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 1.6215482211550525,
+        "delta_chi2": 24.048268949573625,
+        "coefficients": [
+          -4.5942932924575866,
+          0.49461517051194936
+        ],
+        "covariance": [
+          [
+            0.8858622453476994,
+            -0.024349001042846204
+          ],
+          [
+            -0.0243490010428462,
+            0.6141041842267145
+          ]
+        ],
+        "amplitude_angstrom": 4.620841376202102,
+        "phase_radians": 3.0343471221767566
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 1.977124838173924,
+        "delta_chi2": 8.529975481650443,
+        "coefficients": [
+          -4.373015830348193,
+          -0.10073240330237812
+        ],
+        "covariance": [
+          [
+            2.9282408276446645,
+            -0.7321985376876666
+          ],
+          [
+            -0.7321985376876667,
+            2.749364878346276
+          ]
+        ],
+        "amplitude_angstrom": 4.374175861753957,
+        "phase_radians": -3.118561730239833
+      }
+    },
+    {
+      "variant": "sideband_variance",
+      "config": {
+        "degree": 1,
+        "mask": 437059584,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": true,
+        "floor": 0.5,
+        "trend": false
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 4.850625603897446,
+        "delta_chi2": 33.90688739871467,
+        "coefficients": [
+          -5.013279097745493,
+          -0.0001941584578794564
+        ],
+        "covariance": [
+          [
+            0.7441809447218942,
+            0.03726723518208966
+          ],
+          [
+            0.03726723518208966,
+            0.47069699238980794
+          ]
+        ],
+        "amplitude_angstrom": 5.013279101505259,
+        "phase_radians": -3.141553924755033
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.790663204012947,
+        "delta_chi2": 18.79450604290276,
+        "coefficients": [
+          -5.8491679278869855,
+          0.5300626231025509
+        ],
+        "covariance": [
+          [
+            1.8668175079777203,
+            -0.4510012182769241
+          ],
+          [
+            -0.45100121827692413,
+            1.7760616582159525
+          ]
+        ],
+        "amplitude_angstrom": 5.873136456190345,
+        "phase_radians": 3.051217625554852
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 5.97475762747102,
+        "delta_chi2": 51.64237828324531,
+        "coefficients": [
+          -5.303297484773808,
+          0.11375434080939098
+        ],
+        "covariance": [
+          [
+            0.5448857886514507,
+            -0.022161385645615688
+          ],
+          [
+            -0.022161385645615688,
+            0.39870432907485587
+          ]
+        ],
+        "amplitude_angstrom": 5.304517344873252,
+        "phase_radians": 3.1201462044403887
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.790663204012947,
+        "delta_chi2": 18.355569517543124,
+        "coefficients": [
+          -5.013279097745493,
+          -0.0001941584578794564
+        ],
+        "covariance": [
+          [
+            1.8668175079777203,
+            -0.4510012182769241
+          ],
+          [
+            -0.45100121827692413,
+            1.7760616582159525
+          ]
+        ],
+        "amplitude_angstrom": 5.013279101505259,
+        "phase_radians": -3.141553924755033
+      }
+    },
+    {
+      "variant": "strict_coverage",
+      "config": {
+        "degree": 1,
+        "mask": 437059584,
+        "line_coverage": 0.95,
+        "side_coverage": 0.9,
+        "inflate": false,
+        "floor": 0.5,
+        "trend": false
+      },
+      "training": {
+        "n": 55,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 4.983370895704064,
+        "delta_chi2": 31.348966767231566,
+        "coefficients": [
+          -4.972776843662956,
+          -0.011281486207736193
+        ],
+        "covariance": [
+          [
+            0.7888798309859073,
+            -0.004277996613793965
+          ],
+          [
+            -0.004277996613793965,
+            0.5607791242365179
+          ]
+        ],
+        "amplitude_angstrom": 4.97278964051382,
+        "phase_radians": -3.1393240082819367
+      },
+      "validation": {
+        "n": 31,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.443057803054902,
+        "delta_chi2": 15.60999137204472,
+        "coefficients": [
+          -5.834628348906564,
+          0.658811935639655
+        ],
+        "covariance": [
+          [
+            2.2024253050591733,
+            -0.44148906750634925
+          ],
+          [
+            -0.44148906750634925,
+            1.793756171420848
+          ]
+        ],
+        "amplitude_angstrom": 5.8717051302330745,
+        "phase_radians": 3.029154763992457
+      },
+      "full_exploratory": {
+        "n": 86,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 5.895835393592278,
+        "delta_chi2": 45.77466871725385,
+        "coefficients": [
+          -5.240796310453609,
+          0.17119775679724583
+        ],
+        "covariance": [
+          [
+            0.6011346085486206,
+            -0.04187623540472806
+          ],
+          [
+            -0.04187623540472806,
+            0.4478304153459945
+          ]
+        ],
+        "amplitude_angstrom": 5.2435917689687255,
+        "phase_radians": 3.1089379020840506
+      },
+      "validation_unchanged_prediction": {
+        "n": 31,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.443057803054902,
+        "delta_chi2": 15.12768822375603,
+        "coefficients": [
+          -4.972776843662956,
+          -0.011281486207736193
+        ],
+        "covariance": [
+          [
+            2.2024253050591733,
+            -0.44148906750634925
+          ],
+          [
+            -0.44148906750634925,
+            1.793756171420848
+          ]
+        ],
+        "amplitude_angstrom": 4.97278964051382,
+        "phase_radians": -3.1393240082819367
+      }
+    },
+    {
+      "variant": "strict_mask",
+      "config": {
+        "degree": 1,
+        "mask": 448724992,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": false,
+        "floor": 0.5,
+        "trend": false
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 16,
+        "variance_inflation": 4.885551236853535,
+        "delta_chi2": 33.93868644599044,
+        "coefficients": [
+          -5.009695637762664,
+          0.004049825428134729
+        ],
+        "covariance": [
+          [
+            0.7422498124609632,
+            0.03551741484558929
+          ],
+          [
+            0.03551741484558929,
+            0.4712554061112113
+          ]
+        ],
+        "amplitude_angstrom": 5.009697274696771,
+        "phase_radians": 3.1407842562661292
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.857485745679451,
+        "delta_chi2": 18.800879200054354,
+        "coefficients": [
+          -5.831578535499083,
+          0.505531380229861
+        ],
+        "covariance": [
+          [
+            1.8550974508431843,
+            -0.4413190983038622
+          ],
+          [
+            -0.4413190983038621,
+            1.7626075434739872
+          ]
+        ],
+        "amplitude_angstrom": 5.85344942679876,
+        "phase_radians": 3.0551202319218853
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 24,
+        "variance_inflation": 6.021879137286974,
+        "delta_chi2": 51.69361585291253,
+        "coefficients": [
+          -5.298091979434208,
+          0.11180590646487225
+        ],
+        "covariance": [
+          [
+            0.5433140862203267,
+            -0.022593956979281172
+          ],
+          [
+            -0.022593956979281172,
+            0.3985586728314812
+          ]
+        ],
+        "amplitude_angstrom": 5.299271571005351,
+        "phase_radians": 3.120492734191662
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 8,
+        "variance_inflation": 7.857485745679451,
+        "delta_chi2": 18.380278725876146,
+        "coefficients": [
+          -5.009695637762664,
+          0.004049825428134729
+        ],
+        "covariance": [
+          [
+            1.8550974508431843,
+            -0.4413190983038622
+          ],
+          [
+            -0.4413190983038621,
+            1.7626075434739872
+          ]
+        ],
+        "amplitude_angstrom": 5.009697274696771,
+        "phase_radians": 3.1407842562661292
+      }
+    },
+    {
+      "variant": "within_visit_slope",
+      "config": {
+        "degree": 1,
+        "mask": 437059584,
+        "line_coverage": 0.9,
+        "side_coverage": 0.8,
+        "inflate": false,
+        "floor": 0.5,
+        "trend": true
+      },
+      "training": {
+        "n": 58,
+        "n_nights": 16,
+        "nuisance_rank": 27,
+        "variance_inflation": 3.824042471619525,
+        "delta_chi2": 23.536341343194795,
+        "coefficients": [
+          -5.473009505374631,
+          -0.329813619346777
+        ],
+        "covariance": [
+          [
+            1.275166850960428,
+            0.008366493514490684
+          ],
+          [
+            0.008366493514490684,
+            1.8692268020132248
+          ]
+        ],
+        "amplitude_angstrom": 5.482938087323957,
+        "phase_radians": -3.0814036024903175
+      },
+      "validation": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 15,
+        "variance_inflation": 4.238762329666867,
+        "delta_chi2": 11.732024095607102,
+        "coefficients": [
+          -3.0290995261351727,
+          4.341405136293359
+        ],
+        "covariance": [
+          [
+            3.465222094507989,
+            2.409665124858272
+          ],
+          [
+            2.409665124858272,
+            6.252194169708393
+          ]
+        ],
+        "amplitude_angstrom": 5.293698376056827,
+        "phase_radians": 2.1799926709388364
+      },
+      "full_exploratory": {
+        "n": 92,
+        "n_nights": 24,
+        "nuisance_rank": 42,
+        "variance_inflation": 3.981636017677515,
+        "delta_chi2": 32.002872658128176,
+        "coefficients": [
+          -5.10073993225595,
+          0.6786453321775074
+        ],
+        "covariance": [
+          [
+            0.879998491423852,
+            0.1946758431262277
+          ],
+          [
+            0.19467584312622768,
+            1.3827645285690842
+          ]
+        ],
+        "amplitude_angstrom": 5.14568822835165,
+        "phase_radians": 3.009321079327159
+      },
+      "validation_unchanged_prediction": {
+        "n": 34,
+        "n_nights": 8,
+        "nuisance_rank": 15,
+        "variance_inflation": 4.238762329666867,
+        "delta_chi2": 8.078715350811706,
+        "coefficients": [
+          -5.473009505374631,
+          -0.329813619346777
+        ],
+        "covariance": [
+          [
+            3.465222094507989,
+            2.409665124858272
+          ],
+          [
+            2.409665124858272,
+            6.252194169708393
+          ]
+        ],
+        "amplitude_angstrom": 5.482938087323957,
+        "phase_radians": -3.0814036024903175
+      }
+    }
+  ],
+  "observing_fields": [
+    {
+      "field": "015129",
+      "n": 42,
+      "n_nights": 11,
+      "nuisance_rank": 11,
+      "variance_inflation": 6.121988485491178,
+      "delta_chi2": 24.155174916140417,
+      "coefficients": [
+        -5.340494271050331,
+        0.08738016189089098
+      ],
+      "covariance": [
+        [
+          1.1826453100468222,
+          0.021132376900864603
+        ],
+        [
+          0.0211323769008646,
+          0.8572303877708305
+        ]
+      ],
+      "amplitude_angstrom": 5.341209072093461,
+      "phase_radians": 3.125232301677258
+    },
+    {
+      "field": "015193",
+      "n": 50,
+      "n_nights": 13,
+      "nuisance_rank": 13,
+      "variance_inflation": 5.938003737440209,
+      "delta_chi2": 27.52419056952046,
+      "coefficients": [
+        -5.2638789288422325,
+        0.12970400720253006
+      ],
+      "covariance": [
+        [
+          1.0134366974250264,
+          -0.09595502820320417
+        ],
+        [
+          -0.09595502820320417,
+          0.7513259100266826
+        ]
+      ],
+      "amplitude_angstrom": 5.265476664746853,
+      "phase_radians": 3.1169572528435445
+    }
+  ],
+  "leave_night_out_exploratory": [
+    {
+      "mjd": 59210,
+      "n": 5,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 8.464598300972067,
+      "delta_chi2": 3.491515415441621,
+      "coefficients": [
+        -5.255389352623615,
+        0.25965340887150556
+      ],
+      "covariance": [
+        [
+          9.459189536481345,
+          -0.2057968158478986
+        ],
+        [
+          -0.2057968158478986,
+          3.527555766122946
+        ]
+      ],
+      "amplitude_angstrom": 5.261799800487306,
+      "phase_radians": 3.0922257230078722
+    },
+    {
+      "mjd": 59211,
+      "n": 1,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59212,
+      "n": 6,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 3.7021151701730686,
+      "delta_chi2": 4.932204610670257,
+      "coefficients": [
+        -5.319249819041258,
+        0.11010471877107482
+      ],
+      "covariance": [
+        [
+          5.079748555263778,
+          -0.44509116635720025
+        ],
+        [
+          -0.44509116635720025,
+          3.3399218890222757
+        ]
+      ],
+      "amplitude_angstrom": 5.320389242007216,
+      "phase_radians": 3.1208963145622057
+    },
+    {
+      "mjd": 59214,
+      "n": 6,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 3.4702170617176336,
+      "delta_chi2": 2.6978853916428416,
+      "coefficients": [
+        -5.255332136449798,
+        0.11800050694108244
+      ],
+      "covariance": [
+        [
+          22.176606363954306,
+          1.0361702930571406
+        ],
+        [
+          1.0361702930571406,
+          13.212325833972333
+        ]
+      ],
+      "amplitude_angstrom": 5.2566567306644965,
+      "phase_radians": 3.1191429435542855
+    },
+    {
+      "mjd": 59215,
+      "n": 6,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 5.039191390791463,
+      "delta_chi2": 3.829293747768376,
+      "coefficients": [
+        -5.351082885328746,
+        0.11248259126877685
+      ],
+      "covariance": [
+        [
+          5.938229926836641,
+          1.30525050565305
+        ],
+        [
+          1.3052505056530497,
+          6.782133769138165
+        ]
+      ],
+      "amplitude_angstrom": 5.352264976530662,
+      "phase_radians": 3.1205752201496137
+    },
+    {
+      "mjd": 59216,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59217,
+      "n": 1,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59220,
+      "n": 2,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59221,
+      "n": 3,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59238,
+      "n": 2,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59243,
+      "n": 3,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59247,
+      "n": 2,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59248,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59250,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59265,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59267,
+      "n": 5,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 7.384954159731418,
+      "delta_chi2": 3.8612246472103156,
+      "coefficients": [
+        -5.309727577617925,
+        0.14599883553549353
+      ],
+      "covariance": [
+        [
+          8.428657482607056,
+          4.408789021281384
+        ],
+        [
+          4.408789021281383,
+          14.6664884056325
+        ]
+      ],
+      "amplitude_angstrom": 5.3117344256367,
+      "phase_radians": 3.1141030968049455
+    },
+    {
+      "mjd": 59268,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59269,
+      "n": 5,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 3.4586299655550947,
+      "delta_chi2": 3.3521354556818124,
+      "coefficients": [
+        -5.394230319716105,
+        0.08438497351704455
+      ],
+      "covariance": [
+        [
+          4.9257163187956765,
+          -1.3047558958810903
+        ],
+        [
+          -1.3047558958810903,
+          2.5851963658959565
+        ]
+      ],
+      "amplitude_angstrom": 5.394890320099194,
+      "phase_radians": 3.1259503680486893
+    },
+    {
+      "mjd": 59270,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59271,
+      "n": 5,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 2.601556176721923,
+      "delta_chi2": 3.409738427601431,
+      "coefficients": [
+        -5.289980404345113,
+        0.1323106482139393
+      ],
+      "covariance": [
+        [
+          11.762914519207982,
+          -6.143724597704009
+        ],
+        [
+          -6.143724597704009,
+          13.957089818516781
+        ]
+      ],
+      "amplitude_angstrom": 5.291634793330514,
+      "phase_radians": 3.116586309852433
+    },
+    {
+      "mjd": 59275,
+      "n": 6,
+      "n_nights": 1,
+      "nuisance_rank": 1,
+      "variance_inflation": 5.398658778944818,
+      "delta_chi2": 0.8593243705357514,
+      "coefficients": [
+        -5.364711818961148,
+        0.06479058437681079
+      ],
+      "covariance": [
+        [
+          12.209768474057608,
+          0.5349584821393149
+        ],
+        [
+          0.5349584821393149,
+          6.494620036986799
+        ]
+      ],
+      "amplitude_angstrom": 5.365103048434887,
+      "phase_radians": 3.129516061825245
+    },
+    {
+      "mjd": 59276,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59277,
+      "n": 2,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    },
+    {
+      "mjd": 59278,
+      "n": 4,
+      "status": "unidentifiable",
+      "reason": "Too few residual degrees of freedom"
+    }
+  ],
+  "frequency": 12.265129385284249,
+  "limitations": [
+    "All are post-selection sensitivity diagnostics, not independent discoveries or additional blind validations.",
+    "Changing continuum order changes the physical observable; the broad feature need not have invariant equivalent width.",
+    "Within-visit slopes absorb real long arcs as well as calibration drifts.",
+    "Strict masks add BOSS bits17,20,21,23 to the original mask; no clipping by measured flux or phase."
+  ]
+}

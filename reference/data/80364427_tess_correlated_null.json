@@ -1,0 +1,43 @@
+{
+  "sdss_id": 80364427,
+  "sector": 72,
+  "selection": "20 ZTF discovery-frozen frequencies; TESS quality0 only; .2day offsets; no photometric clipping or aperture optimization.",
+  "tests": [
+    {
+      "block_days": 0.2,
+      "n_blocks": 104,
+      "observed_primary": 21.388135279979732,
+      "draws": 100000,
+      "max20_exceedances": 47,
+      "max20_plus_one_tail": 0.00047999520004799953,
+      "primary_only_exceedances": 6,
+      "primary_only_plus_one_tail": 6.999930000699993e-05
+    },
+    {
+      "block_days": 0.5,
+      "n_blocks": 44,
+      "observed_primary": 21.388135279979732,
+      "draws": 100000,
+      "max20_exceedances": 15,
+      "max20_plus_one_tail": 0.00015999840001599985,
+      "primary_only_exceedances": 6,
+      "primary_only_plus_one_tail": 6.999930000699993e-05
+    },
+    {
+      "block_days": 1.0,
+      "n_blocks": 22,
+      "observed_primary": 21.388135279979732,
+      "draws": 100000,
+      "max20_exceedances": 20,
+      "max20_plus_one_tail": 0.0002099979000209998,
+      "primary_only_exceedances": 9,
+      "primary_only_plus_one_tail": 9.99990000099999e-05
+    }
+  ],
+  "limitations": [
+    "Sign symmetry and independence between blocks are unverified assumptions.",
+    "Signal remains in null residuals, so this test can be conservative.",
+    "Three block sizes are sensitivity checks; report all rather than selecting the smallest tail.",
+    "This is independent of ZTF photons but not of other TESS aperture or PDC/SAP tests."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "rule": "Five nearest stars per field,all shared nights,minSNR>10,G13\u201318.5,BP\u2212RP\u22120.3to0.8;chosen before measuring control spectra.",
+  "metadata_only_adjustment": "The initially attempted G15\u201318.5 range supplied fewer than5 qualifying controls in field15193, so the bright limit was expanded to13 before any control flux analysis.",
+  "sha256": "256c404922ed60d06b058ac05b0fc7ff93224859a248926937b5e5db95bbef52",
+  "n_files": 125,
+  "fields": [
+    {
+      "fieldid": 15129,
+      "n_nights": 12,
+      "n_eligible": 8,
+      "selected": [
+        {
+          "sdss_id": 80362348,
+          "n_nights": 12,
+          "min_snr": 10.186046,
+          "g_mag": 16.463297,
+          "colour": 0.7399082,
+          "sep_deg": 0.2513362129376393
+        },
+        {
+          "sdss_id": 80364554,
+          "n_nights": 12,
+          "min_snr": 13.877673,
+          "g_mag": 16.089773,
+          "colour": 0.7032175,
+          "sep_deg": 0.3008864527666207
+        },
+        {
+          "sdss_id": 80362649,
+          "n_nights": 12,
+          "min_snr": 21.955141,
+          "g_mag": 15.206585,
+          "colour": 0.7774,
+          "sep_deg": 0.32434212948067676
+        },
+        {
+          "sdss_id": 80611975,
+          "n_nights": 12,
+          "min_snr": 22.08429,
+          "g_mag": 15.131277,
+          "colour": 0.52847004,
+          "sep_deg": 0.6268033026772422
+        },
+        {
+          "sdss_id": 80613906,
+          "n_nights": 12,
+          "min_snr": 11.38837,
+          "g_mag": 16.315767,
+          "colour": 0.701437,
+          "sep_deg": 0.6575655118856926
+        }
+      ]
+    },
+    {
+      "fieldid": 15193,
+      "n_nights": 13,
+      "n_eligible": 5,
+      "selected": [
+        {
+          "sdss_id": 80362649,
+          "n_nights": 13,
+          "min_snr": 11.783907,
+          "g_mag": 15.206585,
+          "colour": 0.7774,
+          "sep_deg": 0.32434212948067676
+        },
+        {
+          "sdss_id": 80364633,
+          "n_nights": 13,
+          "min_snr": 26.864422,
+          "g_mag": 14.532402,
+          "colour": 0.6238537,
+          "sep_deg": 0.49177861238886217
+        },
+        {
+          "sdss_id": 80611975,
+          "n_nights": 13,
+          "min_snr": 13.200227,
+          "g_mag": 15.131277,
+          "colour": 0.52847004,
+          "sep_deg": 0.6268033026772422
+        },
+        {
+          "sdss_id": 80364730,
+          "n_nights": 13,
+          "min_snr": 18.046337,
+          "g_mag": 14.629663,
+          "colour": 0.6506634,
+          "sep_deg": 0.7034206741514031
+        },
+        {
+          "sdss_id": 80612147,
+          "n_nights": 13,
+          "min_snr": 12.335353,
+          "g_mag": 15.293079,
+          "colour": 0.5746088,
+          "sep_deg": 1.357705477221832
+        }
+      ]
+    }
+  ]
+}

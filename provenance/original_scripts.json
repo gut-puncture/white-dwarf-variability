@@ -1,0 +1,86 @@
+[
+  {
+    "path": "scripts/109631850_pixel_and_spectrum_checks.py",
+    "original_sha256": "aa6ad7461c75ea9aae10c71e9580881b98b1b76c0a85ec8d0e11fc00e8d1f04b"
+  },
+  {
+    "path": "scripts/57829633_spectral_modulation.py",
+    "original_sha256": "fdf0c5840211777837916a51b72ceb74788b1abccb73835ed6bf5aecbdd54bcc"
+  },
+  {
+    "path": "scripts/61247086_tesscut_validation.py",
+    "original_sha256": "e18eaa5643b143496aeff2cb947d8905dfc5098f307996b98bf8e34e2193d75f"
+  },
+  {
+    "path": "scripts/65258778_ztf_image_period.py",
+    "original_sha256": "733ca7df699637dd7ca652628a276f472de34f0a6691325e9d4c4f0f58b9ec50"
+  },
+  {
+    "path": "scripts/65258778_ztf_image_photometry.py",
+    "original_sha256": "7658f59d80c863e16769189847556d3b4aa6a4a2e7ba63c2450a4ce6feb8e08b"
+  },
+  {
+    "path": "scripts/74835110_photometric_audit.py",
+    "original_sha256": "98faf7c83d8e1dc8685882d3b4e776227c6df7209c2f805ec20259217e97d334"
+  },
+  {
+    "path": "scripts/80364427_additional_tess_audit.py",
+    "original_sha256": "7b03f07b2e7f307d337be70de96f829ccc6afd02e3c1000c482e765d0d80fe75"
+  },
+  {
+    "path": "scripts/80364427_additional_tess_validation.py",
+    "original_sha256": "e63f6c1be640ec30b60ad5f065b05c1348ef82d34f6846b3151e624e5559790b"
+  },
+  {
+    "path": "scripts/80364427_continuum_controls.py",
+    "original_sha256": "697c6aed17ef206ff9e60b70413dddab6671e6a7c4b1efa4f3fb3aae1861b87e"
+  },
+  {
+    "path": "scripts/80364427_continuum_windows.py",
+    "original_sha256": "4aacfaae74ee99fcd3ea40d2b3a183823f3b3e8cc43c8a5e384bd0735acb0121"
+  },
+  {
+    "path": "scripts/80364427_feature_controls.py",
+    "original_sha256": "a324a9f90020f8108a9e8d5a73f84d407bad1d336fb72d21351981291b52fbf7"
+  },
+  {
+    "path": "scripts/80364427_feature_sensitivity.py",
+    "original_sha256": "3f8f2fd43ba71d032afc78a289aebfe6281a22355dec817d64afcc689a7594b4"
+  },
+  {
+    "path": "scripts/80364427_spectral_colours.py",
+    "original_sha256": "e8c20a23bc9f942b4d93990b637cacc1c6ec4ebf999950d8dbf06712a20f1889"
+  },
+  {
+    "path": "scripts/80364427_spectral_feature_scan.py",
+    "original_sha256": "156d0c4462765227e91a785389e25064cccfa471c7b25c4813e14c52bf137242"
+  },
+  {
+    "path": "scripts/80364427_tess_correlated_null.py",
+    "original_sha256": "e4e7ed72ab4fe2b14e4052e4d468630903bd208d2103300e19efb2d318a325cf"
+  },
+  {
+    "path": "scripts/fast_rotation_candidate_ztf_audit.py",
+    "original_sha256": "2c1f995d6964960191cc86c22bbdd1b91392aa6066026ef86eddb94b11773aa3"
+  },
+  {
+    "path": "scripts/fast_rotation_search.py",
+    "original_sha256": "3efb01a40d131670c0f0c249be2910b6a11c11ce4da5724fcfcba6084f808aa1"
+  },
+  {
+    "path": "scripts/fast_rotation_tess_validation.py",
+    "original_sha256": "6d862c5380906e85828f71b7335a490850b519304dc65eb568080bd110fa0e9c"
+  },
+  {
+    "path": "scripts/helium_cohort_io.py",
+    "original_sha256": "bc3241115fe41eb35e39948d70bdbf5d07af4a0eea54f2018d47546df9663446"
+  },
+  {
+    "path": "scripts/helium_initial_rv.py",
+    "original_sha256": "8976fc902f5ffcc229576e9844160a0a4efbf9641c9670b347999bb7efe56fe3"
+  },
+  {
+    "path": "scripts/helium_line_strengths.py",
+    "original_sha256": "0634ee733e4f6ccbe80c1e533563736f36f78b897bcbeda156e785f84e233551"
+  }
+]

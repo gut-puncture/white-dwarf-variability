@@ -1,0 +1,56 @@
+[
+  {
+    "sdss_id": 80364427,
+    "catalogue": "Lin2026 candidates",
+    "file": "raw/fast_rotation/literature/lin2026/table1_catalog_147.csv",
+    "n_rows": 147,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 44657.79438493491,
+    "closest_name": "ZTFJ103533.01+055159.00"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "Lin2026 candidates",
+    "file": "raw/fast_rotation/literature/lin2026/table1_catalog_147.csv",
+    "n_rows": 147,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 15870.210289252178,
+    "closest_name": "ZTFJ213056.71+442046.42"
+  },
+  {
+    "sdss_id": 80364427,
+    "catalogue": "Lin2026 known references",
+    "file": "raw/fast_rotation/literature/lin2026/tableS_reference_known_209.csv",
+    "n_rows": 209,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 26584.593395181662,
+    "closest_name": "DPLeo"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "Lin2026 known references",
+    "file": "raw/fast_rotation/literature/lin2026/tableS_reference_known_209.csv",
+    "n_rows": 209,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 15870.221169179915,
+    "closest_name": "ZTFJ2130"
+  },
+  {
+    "sdss_id": 80364427,
+    "catalogue": "Jestin2026",
+    "file": "data/fast_rotation_jestin2026_catalogue.csv",
+    "n_rows": 864,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 1258.0360950927818,
+    "closest_name": "WDJ112023.59+104035.64"
+  },
+  {
+    "sdss_id": 65258778,
+    "catalogue": "Jestin2026",
+    "file": "data/fast_rotation_jestin2026_catalogue.csv",
+    "n_rows": 864,
+    "matches_within_60_arcsec": 0,
+    "closest_arcsec": 3729.5387413989138,
+    "closest_name": "WDJ215309.86+461902.53"
+  }
+]

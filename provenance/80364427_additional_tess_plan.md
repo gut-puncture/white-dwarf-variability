@@ -1,0 +1,9 @@
+# Additional independent TESS epochs — frozen before light-curve measurement
+
+2026-10-02 UTC. Primary dataset remains SDSS DR20. Target80364427/Gaia3915674026806527616 has a ZTF-selected117.406-minute clock and repeated spectral changes. TESS sector72 already supports the primary period; its200-second FFI and120-second products are the same photons and will not be counted independently.
+
+Download sectors22,45,46,and49 as9×9pixel FFI cutouts. These cover different dates from sector72. Primary extraction: radius1.5pixels, background plane fitted to faint35percent pixels outside3pixels, quality0, daily offsets/slopes. Radius1and2and0.5daysegments are sensitivity checks. Retain all20originally frozen ZTF frequencies, count80primary frequency/sector comparisons. Sector22's longer integration must use its actual sinc attenuation. Pixel localization and block nulls are required for any positive attribution.
+
+Before measuring these new TESS light curves, also test whether an additional clock is present in the existing ZTF discovery subset after jointly fitting the primary and its first harmonic. The primary frequency remains fixed to the original discovery estimate. Freeze20residual-search frequencies before calculating their later-ZTF statistics. The earlier validation data have already been inspected for the original search, so this is an exploratory secondary-clock search, not a pristine discovery holdout. Test any plausible secondary only in the unmeasured TESS sectors with explicit additional multiplicity. A secondary must differ from primary harmonics/window aliases and survive independent data; residuals from phase/amplitude drift do not establish a second star.
+
+Motivation: one rotating magnetic atmosphere can produce complex wavelength dependence. A second independent clock, if present and separately validated, would materially change the physical interpretation. Failure to find one does not exclude a binary.

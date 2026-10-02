@@ -1,0 +1,1380 @@
+{
+  "sdss_id": 80364427,
+  "cadence_seconds": 120,
+  "selection": "20 discovery-only ZTF frequencies; no TESS frequency refinement",
+  "tref": 1066.3593594879133,
+  "sectors": [
+    {
+      "sector": 72,
+      "ticid": 903350099,
+      "ra": 170.45336601211,
+      "dec": 10.6595358609191,
+      "file": "raw/tess/80364427/tess2023315124025-s0072-0000000903350099-0267-s_lc.fits",
+      "n_input": 18292,
+      "n_clean": 14463,
+      "header": {
+        "CROWDSAP": 0.42739561,
+        "FLFRCSAP": 0.65558881,
+        "TIMEDEL": 0.0013888888888889,
+        "BJDREFI": 2457000,
+        "BJDREFF": 0.0,
+        "TIMESYS": "TDB"
+      },
+      "median_pdc_error": 6.643178462982178,
+      "median_pdc_flux": 17.897939682006836,
+      "time_system": "BJD TDB minus2458000"
+    }
+  ],
+  "excluded_duplicate_products": [],
+  "preferred_tic": null,
+  "tests": [
+    {
+      "sector": 72,
+      "discovery_rank": 1,
+      "frequency": 12.265129385284249,
+      "period_seconds": 7044.361073244206,
+      "pdc": {
+        "frequency": 12.265129385284249,
+        "period_seconds": 7044.361073244206,
+        "delta_chi2": 21.388135279876646,
+        "unscaled_delta_chi2": 21.388135279876646,
+        "variance_inflation": 1.0,
+        "amplitude": 0.3653514489678492,
+        "amplitude_error": 0.07899950599040718,
+        "fractional_amplitude": 0.020413045046472275,
+        "phase_radians": 0.15661527451494633,
+        "phase_error_radians": 0.21639123333450408,
+        "coefficients": [
+          0.3608798671805038,
+          0.056985987108138035
+        ],
+        "covariance": [
+          [
+            0.006240939125864118,
+            -7.936237600883248e-07
+          ],
+          [
+            -7.936237600883406e-07,
+            0.006250284685809169
+          ]
+        ],
+        "nominal_tail": 2.2679080098950057e-05
+      },
+      "sap": {
+        "frequency": 12.265129385284249,
+        "period_seconds": 7044.361073244206,
+        "delta_chi2": 21.442968378139696,
+        "unscaled_delta_chi2": 21.442968378139696,
+        "variance_inflation": 1.0,
+        "amplitude": 0.23982672595619345,
+        "amplitude_error": 0.05179109908595391,
+        "fractional_amplitude": 0.009015675652790104,
+        "phase_radians": 0.1379032866774561,
+        "phase_error_radians": 0.2161151553000794,
+        "coefficients": [
+          0.23754990726470324,
+          0.032968167091878275
+        ],
+        "covariance": [
+          [
+            0.0026823349295051475,
+            -3.4109743567262766e-07
+          ],
+          [
+            -3.4109743567263576e-07,
+            0.002686351623433314
+          ]
+        ],
+        "nominal_tail": 2.206574418055448e-05
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 2,
+      "frequency": 11.262347281706322,
+      "period_seconds": 7671.580163430177,
+      "pdc": {
+        "frequency": 11.262347281706322,
+        "period_seconds": 7671.580163430177,
+        "delta_chi2": 3.4580882760650984,
+        "unscaled_delta_chi2": 3.4580882760650984,
+        "variance_inflation": 1.0,
+        "amplitude": 0.14656908764940943,
+        "amplitude_error": 0.07881785570837596,
+        "fractional_amplitude": 0.008189159772214358,
+        "phase_radians": 1.572060727590456,
+        "phase_error_radians": 0.5375957564229803,
+        "coefficients": [
+          -0.00018532202164897138,
+          0.14656897048873802
+        ],
+        "covariance": [
+          [
+            0.0062086218825163865,
+            6.903456678720727e-06
+          ],
+          [
+            6.903456678720736e-06,
+            0.006212271841755221
+          ]
+        ],
+        "nominal_tail": 0.17745395041051085
+      },
+      "sap": {
+        "frequency": 11.262347281706322,
+        "period_seconds": 7671.580163430177,
+        "delta_chi2": 4.2787906681555645,
+        "unscaled_delta_chi2": 4.2787906681555645,
+        "variance_inflation": 1.0,
+        "amplitude": 0.10687737809313809,
+        "amplitude_error": 0.051668464279023725,
+        "fractional_amplitude": 0.00401778313766562,
+        "phase_radians": 1.6345430238095122,
+        "phase_error_radians": 0.4833642868502787,
+        "coefficients": [
+          -0.006808466457615771,
+          0.10666029595195728
+        ],
+        "covariance": [
+          [
+            0.0026684450886111035,
+            2.9670817216668627e-06
+          ],
+          [
+            2.967081721666864e-06,
+            0.0026700138264569603
+          ]
+        ],
+        "nominal_tail": 0.11772600640880762
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 3,
+      "frequency": 10.262402988719408,
+      "period_seconds": 8419.080803489418,
+      "pdc": {
+        "frequency": 10.262402988719408,
+        "period_seconds": 8419.080803489418,
+        "delta_chi2": 1.033607781314476,
+        "unscaled_delta_chi2": 1.033607781314476,
+        "variance_inflation": 1.0,
+        "amplitude": 0.07979915172074584,
+        "amplitude_error": 0.07849117283400461,
+        "fractional_amplitude": 0.004458566356716999,
+        "phase_radians": -2.8176260713240766,
+        "phase_error_radians": 0.9830208345491499,
+        "coefficients": [
+          -0.07564801578374808,
+          -0.025402407825488017
+        ],
+        "covariance": [
+          [
+            0.00615489566183768,
+            9.121961015719276e-06
+          ],
+          [
+            9.121961015719288e-06,
+            0.006159465570627647
+          ]
+        ],
+        "nominal_tail": 0.5964237404335218
+      },
+      "sap": {
+        "frequency": 10.262402988719408,
+        "period_seconds": 8419.080803489418,
+        "delta_chi2": 0.6362543479861866,
+        "unscaled_delta_chi2": 0.6362543479861866,
+        "variance_inflation": 1.0,
+        "amplitude": 0.04103695895809535,
+        "amplitude_error": 0.05144702762406984,
+        "fractional_amplitude": 0.0015426800756585676,
+        "phase_radians": -2.9617373467857404,
+        "phase_error_radians": 1.25345713729795,
+        "coefficients": [
+          -0.040375015855691684,
+          -0.0073409873437465635
+        ],
+        "covariance": [
+          [
+            0.0026453537363022497,
+            3.920591857026958e-06
+          ],
+          [
+            3.920591857026948e-06,
+            0.0026473178676858994
+          ]
+        ],
+        "nominal_tail": 0.7275102621461991
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 4,
+      "frequency": 13.267925285862903,
+      "period_seconds": 6511.945020677799,
+      "pdc": {
+        "frequency": 13.267925285862903,
+        "period_seconds": 6511.945020677799,
+        "delta_chi2": 1.6724044203654154,
+        "unscaled_delta_chi2": 1.6724044203654154,
+        "variance_inflation": 1.0,
+        "amplitude": 0.10191364790634559,
+        "amplitude_error": 0.07880644376541228,
+        "fractional_amplitude": 0.005694155289214739,
+        "phase_radians": 2.317182177181985,
+        "phase_error_radians": 0.7733834612414767,
+        "coefficients": [
+          -0.06919833565745875,
+          0.07481966300255738
+        ],
+        "covariance": [
+          [
+            0.006213994950939963,
+            7.361421282749712e-07
+          ],
+          [
+            7.361421282749764e-07,
+            0.006208789735042853
+          ]
+        ],
+        "nominal_tail": 0.43335318652920185
+      },
+      "sap": {
+        "frequency": 13.267925285862903,
+        "period_seconds": 6511.945020677799,
+        "delta_chi2": 1.7226956921029861,
+        "unscaled_delta_chi2": 1.7226956921029861,
+        "variance_inflation": 1.0,
+        "amplitude": 0.06781176647444735,
+        "amplitude_error": 0.05166552087450422,
+        "fractional_amplitude": 0.0025492108502037235,
+        "phase_radians": 2.3591495614889775,
+        "phase_error_radians": 0.7619845195760191,
+        "coefficients": [
+          -0.04809164649239075,
+          0.04780825462235474
+        ],
+        "covariance": [
+          [
+            0.002670754415775108,
+            3.163912194723307e-07
+          ],
+          [
+            3.1639121947232724e-07,
+            0.002668517228058614
+          ]
+        ],
+        "nominal_tail": 0.42259210918026535
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 5,
+      "frequency": 14.2678636875127,
+      "period_seconds": 6055.5666841433085,
+      "pdc": {
+        "frequency": 14.2678636875127,
+        "period_seconds": 6055.5666841433085,
+        "delta_chi2": 3.6061581956131845,
+        "unscaled_delta_chi2": 3.6061581956131845,
+        "variance_inflation": 1.0,
+        "amplitude": 0.14899810193287863,
+        "amplitude_error": 0.07846185116060687,
+        "fractional_amplitude": 0.008324874515175032,
+        "phase_radians": 1.5384798290783925,
+        "phase_error_radians": 0.5266179615849262,
+        "coefficients": [
+          0.004814258752078249,
+          0.1489203051711503
+        ],
+        "covariance": [
+          [
+            0.006157150788474046,
+            5.901973023194445e-06
+          ],
+          [
+            5.901973023194445e-06,
+            0.006155879563737419
+          ]
+        ],
+        "nominal_tail": 0.16479069956023226
+      },
+      "sap": {
+        "frequency": 14.2678636875127,
+        "period_seconds": 6055.5666841433085,
+        "delta_chi2": 3.4704845920190106,
+        "unscaled_delta_chi2": 3.4704845920190106,
+        "variance_inflation": 1.0,
+        "amplitude": 0.09582161795312212,
+        "amplitude_error": 0.05143617165547813,
+        "fractional_amplitude": 0.003602169960610299,
+        "phase_radians": 1.5899327149027196,
+        "phase_error_radians": 0.5368659648433665,
+        "coefficients": [
+          -0.0018335677563245893,
+          0.0958040734856147
+        ],
+        "covariance": [
+          [
+            0.002646322980501717,
+            2.536643407607852e-06
+          ],
+          [
+            2.5366434076078474e-06,
+            0.0026457766152021157
+          ]
+        ],
+        "nominal_tail": 0.17635746439931121
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 6,
+      "frequency": 13.265070309235817,
+      "period_seconds": 6513.346554962767,
+      "pdc": {
+        "frequency": 13.265070309235817,
+        "period_seconds": 6513.346554962767,
+        "delta_chi2": 2.167864249491464,
+        "unscaled_delta_chi2": 2.167864249491464,
+        "variance_inflation": 1.0,
+        "amplitude": 0.11600990816495495,
+        "amplitude_error": 0.07879144214546135,
+        "fractional_amplitude": 0.006481746515303215,
+        "phase_radians": -1.1201862000571563,
+        "phase_error_radians": 0.6795576638633376,
+        "coefficients": [
+          0.05052403658953922,
+          -0.10442997902489583
+        ],
+        "covariance": [
+          [
+            0.006214661095003589,
+            1.9640792746788033e-06
+          ],
+          [
+            1.9640792746788096e-06,
+            0.0062084540502748125
+          ]
+        ],
+        "nominal_tail": 0.3382628155832694
+      },
+      "sap": {
+        "frequency": 13.265070309235817,
+        "period_seconds": 6513.346554962767,
+        "delta_chi2": 2.270226057773415,
+        "unscaled_delta_chi2": 2.270226057773415,
+        "variance_inflation": 1.0,
+        "amplitude": 0.07783046473106353,
+        "amplitude_error": 0.05165532338700824,
+        "fractional_amplitude": 0.0029258383239962977,
+        "phase_radians": -1.0733395009165894,
+        "phase_error_radians": 0.6640469748974949,
+        "coefficients": [
+          0.03714008643870059,
+          -0.0683973334244777
+        ],
+        "covariance": [
+          [
+            0.0026710407216189555,
+            8.441542553861451e-07
+          ],
+          [
+            8.441542553861432e-07,
+            0.0026683729525214766
+          ]
+        ],
+        "nominal_tail": 0.3213857934029453
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 7,
+      "frequency": 11.265208054917142,
+      "period_seconds": 7669.6319836088005,
+      "pdc": {
+        "frequency": 11.265208054917142,
+        "period_seconds": 7669.6319836088005,
+        "delta_chi2": 4.910528056892317,
+        "unscaled_delta_chi2": 4.910528056892317,
+        "variance_inflation": 1.0,
+        "amplitude": 0.17466418415671534,
+        "amplitude_error": 0.07882066966902994,
+        "fractional_amplitude": 0.009758898915739939,
+        "phase_radians": -1.4419566458500535,
+        "phase_error_radians": 0.4511192036541169,
+        "coefficients": [
+          0.022441470500048834,
+          -0.1732165050707536
+        ],
+        "covariance": [
+          [
+            0.006206585545777489,
+            7.194621440059373e-06
+          ],
+          [
+            7.194621440059373e-06,
+            0.006214664796814994
+          ]
+        ],
+        "nominal_tail": 0.0858405281076344
+      },
+      "sap": {
+        "frequency": 11.265208054917142,
+        "period_seconds": 7669.6319836088005,
+        "delta_chi2": 5.7535939194196795,
+        "unscaled_delta_chi2": 5.7535939194196795,
+        "variance_inflation": 1.0,
+        "amplitude": 0.12393775310299202,
+        "amplitude_error": 0.05166951590756906,
+        "fractional_amplitude": 0.004659124535254075,
+        "phase_radians": -1.3761607927458788,
+        "phase_error_radians": 0.4168313367946231,
+        "coefficients": [
+          0.023970672382152416,
+          -0.12159758842084707
+        ],
+        "covariance": [
+          [
+            0.0026675698782523184,
+            3.092224110797423e-06
+          ],
+          [
+            3.0922241107974284e-06,
+            0.0026710423101858442
+          ]
+        ],
+        "nominal_tail": 0.056314853005237926
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 8,
+      "frequency": 9.25962774846887,
+      "period_seconds": 9330.828662554683,
+      "pdc": {
+        "frequency": 9.25962774846887,
+        "period_seconds": 9330.828662554683,
+        "delta_chi2": 6.180863861557674,
+        "unscaled_delta_chi2": 6.180863861557674,
+        "variance_inflation": 1.0,
+        "amplitude": 0.19561128733807992,
+        "amplitude_error": 0.0786809009221046,
+        "fractional_amplitude": 0.01092926285446877,
+        "phase_radians": 0.31470166553034906,
+        "phase_error_radians": 0.4023240913249826,
+        "coefficients": [
+          0.18600457554127345,
+          0.06054810989429448
+        ],
+        "covariance": [
+          [
+            0.006191297639704113,
+            -1.3094735123727845e-06
+          ],
+          [
+            -1.3094735123728078e-06,
+            0.006192940133032234
+          ]
+        ],
+        "nominal_tail": 0.04548230495392375
+      },
+      "sap": {
+        "frequency": 9.25962774846887,
+        "period_seconds": 9330.828662554683,
+        "delta_chi2": 5.144677318077508,
+        "unscaled_delta_chi2": 5.144677318077508,
+        "variance_inflation": 1.0,
+        "amplitude": 0.11699806728464927,
+        "amplitude_error": 0.05158217122229821,
+        "fractional_amplitude": 0.00439824470119474,
+        "phase_radians": 0.3481123221276567,
+        "phase_error_radians": 0.44098521228775384,
+        "coefficients": [
+          0.10998032658437956,
+          0.03991084455052955
+        ],
+        "covariance": [
+          [
+            0.002660999182961203,
+            -5.628068845679951e-07
+          ],
+          [
+            -5.628068845679907e-07,
+            0.0026617051262110454
+          ]
+        ],
+        "nominal_tail": 0.0763567640146837
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 9,
+      "frequency": 15.270650435231216,
+      "period_seconds": 5657.912239328383,
+      "pdc": {
+        "frequency": 15.270650435231216,
+        "period_seconds": 5657.912239328383,
+        "delta_chi2": 3.8903714037688144,
+        "unscaled_delta_chi2": 3.8903714037688144,
+        "variance_inflation": 1.0,
+        "amplitude": 0.15458939774429611,
+        "amplitude_error": 0.0783761945820961,
+        "fractional_amplitude": 0.008637273367264053,
+        "phase_radians": 1.248520382637302,
+        "phase_error_radians": 0.506993360960971,
+        "coefficients": [
+          0.048962504908258674,
+          0.14663067553569045
+        ],
+        "covariance": [
+          [
+            0.006142674503286849,
+            -1.1104472648575018e-07
+          ],
+          [
+            -1.1104472648575428e-07,
+            0.006142919137954393
+          ]
+        ],
+        "nominal_tail": 0.14296067280659103
+      },
+      "sap": {
+        "frequency": 15.270650435231216,
+        "period_seconds": 5657.912239328383,
+        "delta_chi2": 3.841678291499103,
+        "unscaled_delta_chi2": 3.841678291499103,
+        "variance_inflation": 1.0,
+        "amplitude": 0.10071080471477045,
+        "amplitude_error": 0.051382540064710665,
+        "fractional_amplitude": 0.0037859664990202344,
+        "phase_radians": 1.2369500425010211,
+        "phase_error_radians": 0.5101966163382151,
+        "coefficients": [
+          0.03300085307161017,
+          0.09515045918356163
+        ],
+        "covariance": [
+          [
+            0.0026401011236252656,
+            -4.772836103099861e-08
+          ],
+          [
+            -4.7728361030993804e-08,
+            0.002640206265190111
+          ]
+        ],
+        "nominal_tail": 0.14648398912457744
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 10,
+      "frequency": 17.26787810567541,
+      "period_seconds": 5003.509954798848,
+      "pdc": {
+        "frequency": 17.26787810567541,
+        "period_seconds": 5003.509954798848,
+        "delta_chi2": 0.9324001543775309,
+        "unscaled_delta_chi2": 0.9324001543775309,
+        "variance_inflation": 1.0,
+        "amplitude": 0.07597368158258049,
+        "amplitude_error": 0.07867957531216806,
+        "fractional_amplitude": 0.0042448283395970085,
+        "phase_radians": -1.10692196808287,
+        "phase_error_radians": 1.0356981709099955,
+        "coefficients": [
+          0.03399187073681038,
+          -0.06794522070773855
+        ],
+        "covariance": [
+          [
+            0.006190657683613864,
+            8.430201585285509e-07
+          ],
+          [
+            8.430201585285418e-07,
+            0.0061912734896867275
+          ]
+        ],
+        "nominal_tail": 0.627381746713016
+      },
+      "sap": {
+        "frequency": 17.26787810567541,
+        "period_seconds": 5003.509954798848,
+        "delta_chi2": 1.0891429448133603,
+        "unscaled_delta_chi2": 1.0891429448133603,
+        "variance_inflation": 1.0,
+        "amplitude": 0.05383119365145999,
+        "amplitude_error": 0.0515812154486149,
+        "fractional_amplitude": 0.0020236467809377763,
+        "phase_radians": -1.0686825628255765,
+        "phase_error_radians": 0.9582875936502239,
+        "coefficients": [
+          0.02590784827395,
+          -0.04718665921375418
+        ],
+        "covariance": [
+          [
+            0.002660724134931425,
+            3.6232740252912384e-07
+          ],
+          [
+            3.623274025291167e-07,
+            0.0026609888057053696
+          ]
+        ],
+        "nominal_tail": 0.5800903147912564
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 11,
+      "frequency": 10.259612742653935,
+      "period_seconds": 8421.370490992844,
+      "pdc": {
+        "frequency": 10.259612742653935,
+        "period_seconds": 8421.370490992844,
+        "delta_chi2": 0.7076523356943767,
+        "unscaled_delta_chi2": 0.7076523356943767,
+        "variance_inflation": 1.0,
+        "amplitude": 0.06602830783835417,
+        "amplitude_error": 0.07849111691096794,
+        "fractional_amplitude": 0.0036891569092018885,
+        "phase_radians": -0.4415722439311207,
+        "phase_error_radians": 1.1880263276535545,
+        "coefficients": [
+          0.05969492963238352,
+          -0.028217951948737222
+        ],
+        "covariance": [
+          [
+            0.006165207003122319,
+            1.803277767907797e-06
+          ],
+          [
+            1.8032777679077907e-06,
+            0.006149010426916406
+          ]
+        ],
+        "nominal_tail": 0.7019969863970832
+      },
+      "sap": {
+        "frequency": 10.259612742653935,
+        "period_seconds": 8421.370490992844,
+        "delta_chi2": 0.380223996872989,
+        "unscaled_delta_chi2": 0.380223996872989,
+        "variance_inflation": 1.0,
+        "amplitude": 0.03172183678967317,
+        "amplitude_error": 0.051444500825726096,
+        "fractional_amplitude": 0.0011925017550324113,
+        "phase_radians": -0.6433278197846107,
+        "phase_error_radians": 1.621595741808122,
+        "coefficients": [
+          0.025380767278081348,
+          -0.019028704151532166
+        ],
+        "covariance": [
+          [
+            0.002649785519732909,
+            7.750426190057986e-07
+          ],
+          [
+            7.750426190058044e-07,
+            0.0026428242784480105
+          ]
+        ],
+        "nominal_tail": 0.8268665209996651
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 12,
+      "frequency": 7.262391428008758,
+      "period_seconds": 11896.907631112032,
+      "pdc": {
+        "frequency": 7.262391428008758,
+        "period_seconds": 11896.907631112032,
+        "delta_chi2": 2.250324286714065,
+        "unscaled_delta_chi2": 2.250324286714065,
+        "variance_inflation": 1.0,
+        "amplitude": 0.12047287739116312,
+        "amplitude_error": 0.08030951663597664,
+        "fractional_amplitude": 0.006731103106369107,
+        "phase_radians": -0.9076988209922159,
+        "phase_error_radians": 0.6670293833393907,
+        "coefficients": [
+          0.07415839431385093,
+          -0.09494338702457178
+        ],
+        "covariance": [
+          [
+            0.006447409987886322,
+            5.635372613865731e-06
+          ],
+          [
+            5.6353726138657125e-06,
+            0.006459769177341226
+          ]
+        ],
+        "nominal_tail": 0.3245998313848255
+      },
+      "sap": {
+        "frequency": 7.262391428008758,
+        "period_seconds": 11896.907631112032,
+        "delta_chi2": 1.3860570246271111,
+        "unscaled_delta_chi2": 1.3860570246271111,
+        "variance_inflation": 1.0,
+        "amplitude": 0.06196767926275275,
+        "amplitude_error": 0.05263501396129928,
+        "fractional_amplitude": 0.002329517258602589,
+        "phase_radians": -0.5781164530308047,
+        "phase_error_radians": 0.8504017055401148,
+        "coefficients": [
+          0.0518975220457937,
+          -0.03386208024793743
+        ],
+        "covariance": [
+          [
+            0.002771075423741495,
+            2.4220664628216658e-06
+          ],
+          [
+            2.4220664628216687e-06,
+            0.0027763873596815627
+          ]
+        ],
+        "nominal_tail": 0.5000593376438722
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 13,
+      "frequency": 16.2650592759628,
+      "period_seconds": 5312.000315159356,
+      "pdc": {
+        "frequency": 16.2650592759628,
+        "period_seconds": 5312.000315159356,
+        "delta_chi2": 0.2908257666213765,
+        "unscaled_delta_chi2": 0.2908257666213765,
+        "variance_inflation": 1.0,
+        "amplitude": 0.04234253382982864,
+        "amplitude_error": 0.07851641416279703,
+        "fractional_amplitude": 0.0023657769878617065,
+        "phase_radians": 1.7168568892720644,
+        "phase_error_radians": 1.8558132110444567,
+        "coefficients": [
+          -0.006162607789308035,
+          0.04189167502458385
+        ],
+        "covariance": [
+          [
+            0.006173686646843715,
+            4.402666569658402e-06
+          ],
+          [
+            4.402666569658419e-06,
+            0.006165930905822478
+          ]
+        ],
+        "nominal_tail": 0.8646652135637081
+      },
+      "sap": {
+        "frequency": 16.2650592759628,
+        "period_seconds": 5312.000315159356,
+        "delta_chi2": 0.23505620071763508,
+        "unscaled_delta_chi2": 0.23505620071763508,
+        "variance_inflation": 1.0,
+        "amplitude": 0.024959730764158736,
+        "amplitude_error": 0.05148185388206859,
+        "fractional_amplitude": 0.0009382975815286143,
+        "phase_radians": 1.4997819656450089,
+        "phase_error_radians": 2.063671801296741,
+        "coefficients": [
+          0.001771009912943506,
+          0.02489682075501906
+        ],
+        "covariance": [
+          [
+            0.0026534300415267044,
+            1.8922522699902076e-06
+          ],
+          [
+            1.892252269990211e-06,
+            0.002650096645401485
+          ]
+        ],
+        "nominal_tail": 0.8891155269300716
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 14,
+      "frequency": 12.262361057282265,
+      "period_seconds": 7045.951395199664,
+      "pdc": {
+        "frequency": 12.262361057282265,
+        "period_seconds": 7045.951395199664,
+        "delta_chi2": 20.95455735868688,
+        "unscaled_delta_chi2": 20.95455735868688,
+        "variance_inflation": 1.0,
+        "amplitude": 0.36161121609045677,
+        "amplitude_error": 0.078995556483052,
+        "fractional_amplitude": 0.020204069435656436,
+        "phase_radians": 2.3310889312783867,
+        "phase_error_radians": 0.21864043596114688,
+        "coefficients": [
+          -0.24919840511075567,
+          0.2620359259580157
+        ],
+        "covariance": [
+          [
+            0.006247571976137631,
+            5.225238915503855e-06
+          ],
+          [
+            5.2252389155038425e-06,
+            0.006243657677677107
+          ]
+        ],
+        "nominal_tail": 2.8169275948261312e-05
+      },
+      "sap": {
+        "frequency": 12.262361057282265,
+        "period_seconds": 7045.951395199664,
+        "delta_chi2": 21.038838598392005,
+        "unscaled_delta_chi2": 21.038838598392005,
+        "variance_inflation": 1.0,
+        "amplitude": 0.23754334305781358,
+        "amplitude_error": 0.051788340582188674,
+        "fractional_amplitude": 0.008929837681559655,
+        "phase_radians": 2.3111902099683914,
+        "phase_error_radians": 0.21820426519163907,
+        "coefficients": [
+          -0.16024168659775564,
+          0.17535518728394883
+        ],
+        "covariance": [
+          [
+            0.0026851857077967813,
+            2.245791888624697e-06
+          ],
+          [
+            2.245791888624705e-06,
+            0.002683503356074685
+          ]
+        ],
+        "nominal_tail": 2.700686947836222e-05
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 15,
+      "frequency": 8.259700429200764,
+      "period_seconds": 10460.427801297432,
+      "pdc": {
+        "frequency": 8.259700429200764,
+        "period_seconds": 10460.427801297432,
+        "delta_chi2": 0.07695912482718646,
+        "unscaled_delta_chi2": 0.07695912482718646,
+        "variance_inflation": 1.0,
+        "amplitude": 0.02209858016830616,
+        "amplitude_error": 0.0796590068221307,
+        "fractional_amplitude": 0.001234699667164613,
+        "phase_radians": -1.6497453158642224,
+        "phase_error_radians": 3.6005063625540967,
+        "coefficients": [
+          -0.0017428487339603187,
+          -0.02202974633865736
+        ],
+        "covariance": [
+          [
+            0.006329229238731628,
+            -9.033942795574142e-06
+          ],
+          [
+            -9.033942795574159e-06,
+            0.006347088976929021
+          ]
+        ],
+        "nominal_tail": 0.9622513706343875
+      },
+      "sap": {
+        "frequency": 8.259700429200764,
+        "period_seconds": 10460.427801297432,
+        "delta_chi2": 0.11006662628442944,
+        "unscaled_delta_chi2": 0.11006662628442944,
+        "variance_inflation": 1.0,
+        "amplitude": 0.017303845262200586,
+        "amplitude_error": 0.05215731900028881,
+        "fractional_amplitude": 0.0006504940423469114,
+        "phase_radians": 3.128346640193609,
+        "phase_error_radians": 3.018338237754857,
+        "coefficients": [
+          -0.01730232724512427,
+          0.0002292002635512304
+        ],
+        "covariance": [
+          [
+            0.0027202817284153777,
+            -3.8827597682046305e-06
+          ],
+          [
+            -3.882759768204633e-06,
+            0.0027279577855517387
+          ]
+        ],
+        "nominal_tail": 0.9464536180843284
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 16,
+      "frequency": 12.268118331629587,
+      "period_seconds": 7042.644818418816,
+      "pdc": {
+        "frequency": 12.268118331629587,
+        "period_seconds": 7042.644818418816,
+        "delta_chi2": 21.13366845002714,
+        "unscaled_delta_chi2": 21.13366845002714,
+        "variance_inflation": 1.0,
+        "amplitude": 0.363203298712532,
+        "amplitude_error": 0.07900641233190743,
+        "fractional_amplitude": 0.020293022837576533,
+        "phase_radians": 2.589230805451915,
+        "phase_error_radians": 0.21765193455272616,
+        "coefficients": [
+          -0.3091904781004243,
+          0.1905725175561675
+        ],
+        "covariance": [
+          [
+            0.006243503635519176,
+            2.965497232219263e-06
+          ],
+          [
+            2.965497232219266e-06,
+            0.006247712542625405
+          ]
+        ],
+        "nominal_tail": 2.5756224677644835e-05
+      },
+      "sap": {
+        "frequency": 12.268118331629587,
+        "period_seconds": 7042.644818418816,
+        "delta_chi2": 21.1395811590613,
+        "unscaled_delta_chi2": 21.1395811590613,
+        "variance_inflation": 1.0,
+        "amplitude": 0.23814571861670344,
+        "amplitude_error": 0.05179580551607452,
+        "fractional_amplitude": 0.008952482458276956,
+        "phase_radians": 2.572194660067444,
+        "phase_error_radians": 0.21762077212884795,
+        "coefficients": [
+          -0.2005724408903472,
+          0.12839033939808034
+        ],
+        "covariance": [
+          [
+            0.0026834371484411026,
+            1.274562700543197e-06
+          ],
+          [
+            1.2745627005431908e-06,
+            0.0026852461236303196
+          ]
+        ],
+        "nominal_tail": 2.56801925907548e-05
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 17,
+      "frequency": 5.259684724427915,
+      "period_seconds": 16426.840110534868,
+      "pdc": {
+        "frequency": 5.259684724427915,
+        "period_seconds": 16426.840110534868,
+        "delta_chi2": 1.1640573662019849,
+        "unscaled_delta_chi2": 1.1640573662019849,
+        "variance_inflation": 1.0,
+        "amplitude": 0.0849424396805514,
+        "amplitude_error": 0.07872955730860079,
+        "fractional_amplitude": 0.004745933956071255,
+        "phase_radians": 0.34448585036439466,
+        "phase_error_radians": 0.9262613877696857,
+        "coefficients": [
+          0.07995200440708679,
+          0.02868614735675198
+        ],
+        "covariance": [
+          [
+            0.006193036995656769,
+            7.8730456891287e-06
+          ],
+          [
+            7.87304568912871e-06,
+            0.0061956758275691255
+          ]
+        ],
+        "nominal_tail": 0.5587636615784551
+      },
+      "sap": {
+        "frequency": 5.259684724427915,
+        "period_seconds": 16426.840110534868,
+        "delta_chi2": 1.7760319517756442,
+        "unscaled_delta_chi2": 1.7760319517756442,
+        "variance_inflation": 1.0,
+        "amplitude": 0.06872994241318603,
+        "amplitude_error": 0.05157280495841425,
+        "fractional_amplitude": 0.0025837273388179907,
+        "phase_radians": -0.33801714209349026,
+        "phase_error_radians": 0.7510905809093836,
+        "coefficients": [
+          0.06484079465386723,
+          -0.022792023446260558
+        ],
+        "covariance": [
+          [
+            0.0026617467534725656,
+            3.383811671001116e-06
+          ],
+          [
+            3.3838116710011124e-06,
+            0.002662880917012935
+          ]
+        ],
+        "nominal_tail": 0.411471312445131
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 18,
+      "frequency": 8.265207606685777,
+      "period_seconds": 10453.457930096094,
+      "pdc": {
+        "frequency": 8.265207606685777,
+        "period_seconds": 10453.457930096094,
+        "delta_chi2": 0.14154853383657806,
+        "unscaled_delta_chi2": 0.14154853383657806,
+        "variance_inflation": 1.0,
+        "amplitude": 0.029928746728366578,
+        "amplitude_error": 0.07954948641474366,
+        "fractional_amplitude": 0.0016721894955571092,
+        "phase_radians": 2.1409680480212105,
+        "phase_error_radians": 2.661804434456063,
+        "coefficients": [
+          -0.016154837541712302,
+          0.025194267298962993
+        ],
+        "covariance": [
+          [
+            0.006325773382367138,
+            1.535328016188898e-05
+          ],
+          [
+            1.5353280161888965e-05,
+            0.006348775307838295
+          ]
+        ],
+        "nominal_tail": 0.9316721776243021
+      },
+      "sap": {
+        "frequency": 8.265207606685777,
+        "period_seconds": 10453.457930096094,
+        "delta_chi2": 0.09244399923874293,
+        "unscaled_delta_chi2": 0.09244399923874293,
+        "variance_inflation": 1.0,
+        "amplitude": 0.01587684616985059,
+        "amplitude_error": 0.052218764235179654,
+        "fractional_amplitude": 0.0005968496416982388,
+        "phase_radians": -2.630025909424797,
+        "phase_error_radians": 3.285295708190336,
+        "coefficients": [
+          -0.013844269904260648,
+          -0.007772415012020537
+        ],
+        "covariance": [
+          [
+            0.0027187964133212183,
+            6.598789685535451e-06
+          ],
+          [
+            6.598789685535431e-06,
+            0.002728682564478685
+          ]
+        ],
+        "nominal_tail": 0.9548299667709464
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 19,
+      "frequency": 15.265146158824457,
+      "period_seconds": 5659.952358206147,
+      "pdc": {
+        "frequency": 15.265146158824457,
+        "period_seconds": 5659.952358206147,
+        "delta_chi2": 4.055829491696947,
+        "unscaled_delta_chi2": 4.055829491696947,
+        "variance_inflation": 1.0,
+        "amplitude": 0.1577923549123102,
+        "amplitude_error": 0.07835128588130197,
+        "fractional_amplitude": 0.008816230120103827,
+        "phase_radians": -0.746355220141986,
+        "phase_error_radians": 0.49685457834624175,
+        "coefficients": [
+          0.11584616493079197,
+          -0.10713586392800598
+        ],
+        "covariance": [
+          [
+            0.006144050057917722,
+            3.921430762774568e-06
+          ],
+          [
+            3.921430762774549e-06,
+            0.006141411043259846
+          ]
+        ],
+        "nominal_tail": 0.1316096748299205
+      },
+      "sap": {
+        "frequency": 15.265146158824457,
+        "period_seconds": 5659.952358206147,
+        "delta_chi2": 4.271199722478355,
+        "unscaled_delta_chi2": 4.271199722478355,
+        "variance_inflation": 1.0,
+        "amplitude": 0.10615744528230342,
+        "amplitude_error": 0.0513659744232412,
+        "fractional_amplitude": 0.003990719095122369,
+        "phase_radians": -0.7657851678792817,
+        "phase_error_radians": 0.4841706380689553,
+        "coefficients": [
+          0.07652236059815716,
+          -0.07357806410439766
+        ],
+        "covariance": [
+          [
+            0.002640692331877503,
+            1.6854199577016214e-06
+          ],
+          [
+            1.6854199577016224e-06,
+            0.0026395580916616234
+          ]
+        ],
+        "nominal_tail": 0.11817368130005564
+      }
+    },
+    {
+      "sector": 72,
+      "discovery_rank": 20,
+      "frequency": 6.259550933598859,
+      "period_seconds": 13802.907096136574,
+      "pdc": {
+        "frequency": 6.259550933598859,
+        "period_seconds": 13802.907096136574,
+        "delta_chi2": 4.96996750271378,
+        "unscaled_delta_chi2": 4.96996750271378,
+        "variance_inflation": 1.0,
+        "amplitude": 0.17784317758906504,
+        "amplitude_error": 0.07977404802894265,
+        "fractional_amplitude": 0.009936516758286676,
+        "phase_radians": -2.589684414123499,
+        "phase_error_radians": 0.4488001714347371,
+        "coefficients": [
+          -0.15143801104806173,
+          -0.09324550726326097
+        ],
+        "covariance": [
+          [
+            0.0063790809393703286,
+            -9.718037449380869e-06
+          ],
+          [
+            -9.718037449380825e-06,
+            0.0063554194121501146
+          ]
+        ],
+        "nominal_tail": 0.08332690845027996
+      },
+      "sap": {
+        "frequency": 6.259550933598859,
+        "period_seconds": 13802.907096136574,
+        "delta_chi2": 5.404232037791062,
+        "unscaled_delta_chi2": 5.404232037791062,
+        "variance_inflation": 1.0,
+        "amplitude": 0.12153815794963106,
+        "amplitude_error": 0.052281326534616784,
+        "fractional_amplitude": 0.004568917859936909,
+        "phase_radians": -2.4386034596639505,
+        "phase_error_radians": 0.4306807012764411,
+        "coefficients": [
+          -0.09272305060331505,
+          -0.07857454883487747
+        ],
+        "covariance": [
+          [
+            0.002741707823759656,
+            -4.176780331733244e-06
+          ],
+          [
+            -4.176780331733245e-06,
+            0.0027315381783278346
+          ]
+        ],
+        "nominal_tail": 0.06706345495639124
+      }
+    }
+  ],
+  "combined": [
+    {
+      "discovery_rank": 1,
+      "frequency": 12.265129385284249,
+      "period_seconds": 7044.361073244206,
+      "independent_sector_gain": 21.388135279876646,
+      "nominal_20_frequency_tail": 0.00045358160197900114
+    },
+    {
+      "discovery_rank": 2,
+      "frequency": 11.262347281706322,
+      "period_seconds": 7671.580163430177,
+      "independent_sector_gain": 3.4580882760650984,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 3,
+      "frequency": 10.262402988719408,
+      "period_seconds": 8419.080803489418,
+      "independent_sector_gain": 1.033607781314476,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 4,
+      "frequency": 13.267925285862903,
+      "period_seconds": 6511.945020677799,
+      "independent_sector_gain": 1.6724044203654154,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 5,
+      "frequency": 14.2678636875127,
+      "period_seconds": 6055.5666841433085,
+      "independent_sector_gain": 3.6061581956131845,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 6,
+      "frequency": 13.265070309235817,
+      "period_seconds": 6513.346554962767,
+      "independent_sector_gain": 2.167864249491464,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 7,
+      "frequency": 11.265208054917142,
+      "period_seconds": 7669.6319836088005,
+      "independent_sector_gain": 4.910528056892317,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 8,
+      "frequency": 9.25962774846887,
+      "period_seconds": 9330.828662554683,
+      "independent_sector_gain": 6.180863861557674,
+      "nominal_20_frequency_tail": 0.9096460990784749
+    },
+    {
+      "discovery_rank": 9,
+      "frequency": 15.270650435231216,
+      "period_seconds": 5657.912239328383,
+      "independent_sector_gain": 3.8903714037688144,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 10,
+      "frequency": 17.26787810567541,
+      "period_seconds": 5003.509954798848,
+      "independent_sector_gain": 0.9324001543775309,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 11,
+      "frequency": 10.259612742653935,
+      "period_seconds": 8421.370490992844,
+      "independent_sector_gain": 0.7076523356943767,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 12,
+      "frequency": 7.262391428008758,
+      "period_seconds": 11896.907631112032,
+      "independent_sector_gain": 2.250324286714065,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 13,
+      "frequency": 16.2650592759628,
+      "period_seconds": 5312.000315159356,
+      "independent_sector_gain": 0.2908257666213765,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 14,
+      "frequency": 12.262361057282265,
+      "period_seconds": 7045.951395199664,
+      "independent_sector_gain": 20.95455735868688,
+      "nominal_20_frequency_tail": 0.0005633855189652263
+    },
+    {
+      "discovery_rank": 15,
+      "frequency": 8.259700429200764,
+      "period_seconds": 10460.427801297432,
+      "independent_sector_gain": 0.07695912482718646,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 16,
+      "frequency": 12.268118331629587,
+      "period_seconds": 7042.644818418816,
+      "independent_sector_gain": 21.13366845002714,
+      "nominal_20_frequency_tail": 0.0005151244935528967
+    },
+    {
+      "discovery_rank": 17,
+      "frequency": 5.259684724427915,
+      "period_seconds": 16426.840110534868,
+      "independent_sector_gain": 1.1640573662019849,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 18,
+      "frequency": 8.265207606685777,
+      "period_seconds": 10453.457930096094,
+      "independent_sector_gain": 0.14154853383657806,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 19,
+      "frequency": 15.265146158824457,
+      "period_seconds": 5659.952358206147,
+      "independent_sector_gain": 4.055829491696947,
+      "nominal_20_frequency_tail": 1.0
+    },
+    {
+      "discovery_rank": 20,
+      "frequency": 6.259550933598859,
+      "period_seconds": 13802.907096136574,
+      "independent_sector_gain": 4.96996750271378,
+      "nominal_20_frequency_tail": 1.0
+    }
+  ],
+  "caveats": [
+    "SAP and PDC share photons; do not combine them as independent evidence.",
+    "Variance inflation is estimated under the no-periodic-signal model separately in each sector.",
+    "Two sine/cosine parameters per sector; independent phases and amplitudes are allowed.",
+    "A TESS signal still requires pixel source localization and alias checks."
+  ]
+}

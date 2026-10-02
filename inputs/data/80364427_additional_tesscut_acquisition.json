@@ -1,0 +1,62 @@
+[
+  {
+    "sector": 22,
+    "cutout_pixels": [
+      9,
+      9
+    ],
+    "ra": 170.45311084,
+    "dec": 10.65945823,
+    "n_rows": 1248,
+    "cadence_seconds": 1800.0000536441803,
+    "status": "verified",
+    "file": "raw/tess/80364427/cutouts/tess-s0022-1-4_170.453111_10.659458_9x9_astrocut.fits",
+    "bytes": 2145600,
+    "sha256": "e4ba5757862e93b7b3b850c99b4f82cdd2f385b6a1f4c0f33b083cc58a7b9c75"
+  },
+  {
+    "sector": 45,
+    "cutout_pixels": [
+      9,
+      9
+    ],
+    "ra": 170.45311084,
+    "dec": 10.65945823,
+    "n_rows": 3450,
+    "cadence_seconds": 600.0,
+    "status": "verified",
+    "file": "raw/tess/80364427/cutouts/tess-s0045-4-4_170.453111_10.659458_9x9_astrocut.fits",
+    "bytes": 5857920,
+    "sha256": "4b15ab1f46216b9194b8425fe93e507a9c1d651f2529302583e05b7b1540087c"
+  },
+  {
+    "sector": 46,
+    "cutout_pixels": [
+      9,
+      9
+    ],
+    "ra": 170.45311084,
+    "dec": 10.65945823,
+    "n_rows": 3707,
+    "cadence_seconds": 600.0,
+    "status": "verified",
+    "file": "raw/tess/80364427/cutouts/tess-s0046-3-1_170.453111_10.659458_9x9_astrocut.fits",
+    "bytes": 6292800,
+    "sha256": "7e7f3bbff7a87d95f041e47350a96cc7b5092deb3eed798e609f7406094743ec"
+  },
+  {
+    "sector": 49,
+    "cutout_pixels": [
+      9,
+      9
+    ],
+    "ra": 170.45311084,
+    "dec": 10.65945823,
+    "n_rows": 3725,
+    "cadence_seconds": 600.0,
+    "status": "verified",
+    "file": "raw/tess/80364427/cutouts/tess-s0049-1-3_170.453111_10.659458_9x9_astrocut.fits",
+    "bytes": 6321600,
+    "sha256": "a57f0b3effd96524619b1951313273aa6df7857d754e897fa9f32cdc3353a879"
+  }
+]
