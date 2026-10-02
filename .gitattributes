@@ -1,0 +1,3 @@
+# Preserve exact bytes: checksums cover observations, plans and reference data.
+# Python and Markdown work with LF on every supported platform.
+* -text

@@ -109,7 +109,8 @@ def bootstrap(args):
         subprocess.run([str(python), "-m", "pip", "check"], check=True)
         stamp.write_text(lock + "\n")
     command = [str(python), str(Path(__file__).resolve()), *sys.argv[1:], "--use-current-python"]
-    raise SystemExit(subprocess.run(command).returncode)
+    environment = dict(os.environ, PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
+    raise SystemExit(subprocess.run(command, env=environment).returncode)
 
 
 def main():
@@ -130,7 +131,7 @@ def main():
     shutil.copytree(observations / "raw", output / "raw")
     (output / "figures").mkdir()
     (output / "logs").mkdir()
-    environment = dict(os.environ, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MPLBACKEND="Agg", MPLCONFIGDIR=str(output / ".matplotlib"))
+    environment = dict(os.environ, OPENBLAS_NUM_THREADS="1", OMP_NUM_THREADS="1", MPLBACKEND="Agg", MPLCONFIGDIR=str(output / ".matplotlib"), PYTHONUTF8="1", PYTHONIOENCODING="utf-8")
     started = time.monotonic()
     status = subprocess.run([sys.executable, str(ROOT / "run_analysis.py"), str(output)], env=environment).returncode
     if status:

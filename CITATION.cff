@@ -5,7 +5,7 @@ title: "Two white dwarfs with repeating brightness: observations and reproducibl
 authors:
   - family-names: Rana
     given-names: Shailesh
-version: 1.0.0
+version: 1.0.1
 date-released: 2026-10-03
 url: "https://github.com/gut-puncture/white-dwarf-variability"
 repository-code: "https://github.com/gut-puncture/white-dwarf-variability"
